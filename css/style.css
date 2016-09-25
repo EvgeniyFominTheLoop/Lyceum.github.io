@@ -34,7 +34,7 @@
 /* Large Devices, Wide Screens */
 @media only screen and (min-width : 1360px) {
 .menu{font-size: 17px;}
-.menu li a {padding:11px 8px !important;}
+.menu li a {padding:11px 7px !important;}
 }
 
 /* Large Devices, Wide Screens */
