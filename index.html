@@ -6,24 +6,30 @@
     	<meta name="viewport" content="width=device-width, initial-scale=1.0">
     	<meta name="keywords" content="хал, хду, хгу, мишуков, мішуков, лицей, ліцей" name="description" content="Херсонський академічний ліцей імені О.В. Мішукова Херсонської міської ради при Херсонському державному університеті">
     	<meta name="author" content="Evgeniy Fomin" />
+
+		<meta http-equiv="Cache-Control" content="no-cache"/>
+		<meta http-equiv="Pragma" content="no-cache"/>
+		<meta http-equiv="Expires" content="0"/>
+
     	<title>Херсонський академічний ліцей імені О.В. Мішукова</title>
 
     	<link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
     	<link rel="stylesheet" type="text/css" href="css/style.css" />
 		<link rel="stylesheet" type="text/css" href="css/font-awesome.css" />
+
         <link rel="stylesheet" type="text/css" href="css/slider.css" />
+        <script type="text/javascript" src="js/jquery-3.1.1.js"></script>
+        <script type="text/javascript" src="js/menu.js"></script>
 		<script type="text/javascript" src="js/modernizr.custom.79639.js"></script>
 		<noscript>
 			<link rel="stylesheet" type="text/css" href="css/styleNoJS.css" />
-		</noscript>
-
-
-
-    	
+		</noscript>   	
     </head>
+    
     <!-- Содержание страницы -->
     <body>
     <header>
+    	<a id="touch-menu" class="mobile-menu" href="#"><i class="fa fa-home"></i>Menu</a>
     	<div id="menu-wrapper">
 			<ul class="menu">
 				<li><a href="http://lyceum.com.ua/"><i class="fa fa-home"></i>ГОЛОВНА</a></li>
@@ -36,6 +42,7 @@
 				<li><a href="/litsej_times"><i class="fa fa-graduation-cap"></i>OWL NEWS</a></li>
 			</ul>
     	</div>
+
  	
 		<div id="slider">
 			<div class="sl-slider">
@@ -112,67 +119,39 @@ Lorem Ipsum - це текст-"риба", що використовується 
 
 
 
-    	<script type="text/javascript" src="js/jquery-3.1.1.js"></script>
+    	
         <script type="text/javascript" src="js/bootstrap.js"></script>
-
-
-
-
-
-
-		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
 		<script type="text/javascript" src="js/jquery.ba-cond.min.js"></script>
 		<script type="text/javascript" src="js/jquery.slitslider.js"></script>
 		<script type="text/javascript">	
-			$(function() {
-			
+			$(function() {			
 				var Page = (function() {
-
 					var $nav = $( '#nav-dots > span' ),
 						slitslider = $( '#slider' ).slitslider( {
 							onBeforeChange : function( slide, pos ) {
-
 								$nav.removeClass( 'nav-dot-current' );
 								$nav.eq( pos ).addClass( 'nav-dot-current' );
-
 							}
 						} ),
-
 						init = function() {
-
-							initEvents();
-							
+							initEvents();							
 						},
 						initEvents = function() {
-
-							$nav.each( function( i ) {
-							
-								$( this ).on( 'click', function( event ) {
-									
-									var $dot = $( this );
-									
+							$nav.each( function( i ) {							
+								$( this ).on( 'click', function( event ) {									
+									var $dot = $( this );									
 									if( !slitslider.isActive() ) {
-
 										$nav.removeClass( 'nav-dot-current' );
-										$dot.addClass( 'nav-dot-current' );
-									
-									}
-									
+										$dot.addClass( 'nav-dot-current' );									
+									}									
 									slitslider.jump( i + 1 );
-									return false;
-								
-								} );
-								
+									return false;								
+								} );								
 							} );
-
 						};
-
 						return { init : init };
-
 				})();
-
-				Page.init();
-			
+				Page.init();			
 			});
 		</script>
 
