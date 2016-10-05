@@ -17,6 +17,7 @@
     	<link rel="stylesheet" type="text/css" href="css/custom.css" />
 		<link rel="stylesheet" type="text/css" href="css/font-awesome.css" />
 		<link rel="stylesheet" type="text/css" href="css/menu.css" />
+		<link rel="stylesheet" type="text/css" href="css/hamburger.css" />
 		<link rel="stylesheet" type="text/css" href="css/slider.css" />
 		<link rel="stylesheet" type="text/css" href="css/slider-custom.css" />
 		<noscript>
@@ -25,7 +26,14 @@
     </head>
     <body>
     	<!-- МЕНЮ -->
-        <a id="touch-menu" class="mobile-menu" href="#"><i class="fa fa-home"></i>Menu</a>
+        <a id="touch-menu" class="mobile-menu" href="#">
+
+        <!-- <i class="fa fa-home"></i> -->
+        <button class="c-hamburger c-hamburger--htx">
+        	<span>toggle menu</span>
+        </button>
+
+        Menu</a>
     	<nav>
 			<ul class="menu">
 				<li><a href="http://lyceum.com.ua/"><i class="fa fa-home"></i>ГОЛОВНА</a></li>
@@ -93,6 +101,7 @@
     	<script type="text/javascript" src="js/modernizr.custom.79639.js"></script>
     	<script src="js/jquery-3.1.1.js" type="text/javascript" ></script>
     	<script type="text/javascript" src="js/menu.js"></script>
+        <script type="text/javascript" src="js/hamburger.js"></script>
         <script type="text/javascript" src="js/bootstrap.js"></script>
 		<script type="text/javascript" src="js/jquery.ba-cond.min.js"></script>
 		<script type="text/javascript" src="js/jquery.slitslider.js"></script>
