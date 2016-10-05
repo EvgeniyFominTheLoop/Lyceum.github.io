@@ -5,7 +5,7 @@
 
 a{text-decoration:none;}
 a:hover{text-decoration:underline;}
-a:active,a:focus{outline: none;}
+a:active,a:focus{outline: none;text-decoration:none;color:#fff;}
 
 *{ 
 	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
