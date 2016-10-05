@@ -4,7 +4,7 @@
 *, html, ul, li { margin:0; padding:0 }
 
 a{text-decoration:none;}
-a:hover{text-decoration:underline;}
+a:hover{color:#BA0707; text-decoration:underline;}
 a:active,a:focus{outline: none;text-decoration:none;color:#fff;}
 
 *{ 
@@ -14,7 +14,7 @@ a:active,a:focus{outline: none;text-decoration:none;color:#fff;}
 }
 
 a{color:#BA0707;}
-a:hover{color:#BA0707;text-decoration:underline;}
+
 
 nav{display:block;
 background:#3E4156;
