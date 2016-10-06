@@ -16,7 +16,6 @@
   display: block;
   position: relative;
   overflow: hidden;
-  margin-top: 2px;
   padding: 0;
   width: 20px; /* Ширина блока */
   height: 20px; /* Высота блока */
