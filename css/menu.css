@@ -24,6 +24,7 @@ z-index:100;}
 .menu li:first-child{margin-left:0;}
 
 .menu li a {font-weight:600;
+font-size: 16px;
 text-decoration:none;
 padding:11px;
 display:block;
