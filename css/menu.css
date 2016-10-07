@@ -15,7 +15,19 @@ nav{display:block;
 background:#3E4156;
 text-align: center;}
 
-.menu{display:block;}
+.menu{display:block;
+/*background:#fff;
+height:60px;
+z-index:170;
+margin:0auto;
+border-bottom:1pxsolid#dadada;
+width:100%;
+position:fixed;
+top:0;
+left:0;
+right:0;
+text-align: center;*/
+}
 
 .menu li{display: inline-block;
 position: relative;

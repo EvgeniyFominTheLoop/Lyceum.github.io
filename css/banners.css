@@ -11,7 +11,6 @@
 	width: 320px;
 	margin: 0;
 	padding: 20px;
-	text-align: left;
 	position: relative;
 }
 
@@ -32,17 +31,15 @@
 	left: 0;
 	padding: 20px;
 	background: #2c3f52;
-	color: #ed4e6e;
+	color: #fff;
+	text-align: center;
+	vertical-align: middle;
 }
 
-.grid figcaption h3 {
+.grid figcaption h4 {
 	margin: 0;
 	padding: 0;
 	color: #fff;
-}
-
-.grid figcaption span:before {
-	content: 'by ';
 }
 
 .grid figcaption a {
