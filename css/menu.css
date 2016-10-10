@@ -1,10 +1,15 @@
 /* RESET STYLES */
 /**, html, ul, li { margin:0; padding:0 }*/
 
-a:visited{color:#fff !important; background: #3E4156 !important;}
+a:visited{
+	color:#fff !important;
+	background: #3E4156 !important;
+}
 
-.menu li a:hover, .menu li:hover > a{color:#fff;
-background:#9CA3DA !important;}
+.menu li a:hover, .menu li:hover > a{
+	color:#fff;
+	background:#9CA3DA !important;
+}
 
 *{ 
 	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
@@ -12,29 +17,32 @@ background:#9CA3DA !important;}
 	box-sizing: border-box;         /* Opera/IE 8+ */
 }
 
-.menu{display:block;
-width:100%;
-position:fixed;
-z-index:2;
-background:#3E4156;
-text-align: center;
+.menu{
+	display:block;
+	width:100%;
+	position:fixed;
+	z-index:2;
+	background:#3E4156;
+	text-align: center;
 }
 
-.menu li{display: inline-block;
-position: relative;
-z-index:100;
-float: none;
+.menu li{
+	display: inline-block;
+	position: relative;
+	z-index:100;
+	float: none;
 }
 
 .menu li+li{margin-left: 0px !important;}
 
-.menu li a {font-weight:600;
-font-size: 16px;
-text-decoration:none;
-padding:11px;
-display:block;
-color:#ffffff;
-border-radius: 0px;
+.menu li a {
+	font-weight:600;
+	font-size: 16px;
+	text-decoration:none;
+	padding:11px;
+	display:block;
+	color:#ffffff;
+	border-radius: 0px;
 
 /* ПЛАВНОСТЬ ИЗМЕНЕНИЯ ЦВЕТА ПРИ НАВЕДЕНИИ */
 -webkit-transition: all 0.2s ease-in-out 0s;
@@ -44,46 +52,48 @@ border-radius: 0px;
    transition: all 0.2s ease-in-out 0s;
 }
 
-.mobile-menu{display:none;
-width:100%;
-padding:11px;
-background:#3E4156;
-/*background:rgba(90, 139, 190, 0.78);*/
-color:#ffffff;
-text-transform:uppercase;
-font-weight:600;
+.mobile-menu{
+	display:none;
+	width:100%;
+	padding:11px;
+	background:#3E4156;
+	color:#ffffff;
+	text-transform:uppercase;
+	font-weight:600;
 }
 
-.mobile-menu:hover{background:#3E4156;
-color:#ffffff;
-text-decoration:none;
+.mobile-menu:hover{
+	background:#3E4156;
+	color:#ffffff;
+	text-decoration:none;
 }
 
 @media (min-width: 768px) and (max-width: 979px) {
 
 .menu ul {top:37px;}
-.menu li a{font-size:12px;
-padding:8px;}
+.menu li a{font-size:12px;padding:8px;}
 }
 
 @media (max-width: 767px) {
 
-.menu{display:none;
-position: relative;
-}
+.menu{
+	display:none;
+	position: relative;}
 
 .mobile-menu{display:block;}
 
-.menu li{display:block;
-margin:0;}
+.menu li{
+	display:block;
+	margin:0;}
 
-.menu li a {background:#ffffff;
-color:#797979;
-border-top:1px solid #e0e0e0;
-border-left:3px solid #ffffff;}
+.menu li a {
+	background:#ffffff;
+	color:#797979;
+	border-top:1px solid #e0e0e0;
+	border-left:3px solid #ffffff;}
 
 .menu li a:hover, .menu li:hover > a{
-background:#f0f0f0;
-color:#797979;
-border-left:3px solid #9CA3DA;}
+	background:#f0f0f0;
+	color:#797979;
+	border-left:3px solid #9CA3DA;}
 }
