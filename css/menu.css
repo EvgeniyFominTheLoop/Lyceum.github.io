@@ -1,9 +1,10 @@
 /* RESET STYLES */
-*, html, ul, li { margin:0; padding:0 }
+/**, html, ul, li { margin:0; padding:0 }*/
 
-a{color:#BA0707; text-decoration:none;}
-a:hover{color:#BA0707; text-decoration:underline;}
-a:active,a:focus{outline:none; text-decoration:none; color:#fff;}
+a:visited{color:#fff !important; background: #3E4156 !important;}
+
+.menu li a:hover, .menu li:hover > a{color:#fff;
+background:#9CA3DA !important;}
 
 *{ 
 	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
@@ -11,21 +12,21 @@ a:active,a:focus{outline:none; text-decoration:none; color:#fff;}
 	box-sizing: border-box;         /* Opera/IE 8+ */
 }
 
-nav{display:block;
-text-align: center;}
-
 .menu{display:block;
 width:100%;
 position:fixed;
 z-index:2;
 background:#3E4156;
+text-align: center;
 }
 
 .menu li{display: inline-block;
 position: relative;
-z-index:100;}
+z-index:100;
+float: none;
+}
 
-.menu li:first-child{margin-left:0;}
+.menu li+li{margin-left: 0px !important;}
 
 .menu li a {font-weight:600;
 font-size: 16px;
@@ -33,28 +34,15 @@ text-decoration:none;
 padding:11px;
 display:block;
 color:#ffffff;
+border-radius: 0px;
 
+/* ПЛАВНОСТЬ ИЗМЕНЕНИЯ ЦВЕТА ПРИ НАВЕДЕНИИ */
 -webkit-transition: all 0.2s ease-in-out 0s;
    -moz-transition: all 0.2s ease-in-out 0s;
    -o-transition: all 0.2s ease-in-out 0s;
    -ms-transition: all 0.2s ease-in-out 0s;
    transition: all 0.2s ease-in-out 0s;
 }
-
-.menu li a:hover, .menu li:hover > a{color:#ffffff;
-background:#9CA3DA;}
-
-.menu ul {display: none;
-margin: 0;
-padding: 0;
-width: 150px;
-position: absolute;
-top: 43px;
-left: 0px;
-background: #ffffff;
-}
-
-.menu li:hover > ul{ display: block;}
 
 .mobile-menu{display:none;
 width:100%;
@@ -85,9 +73,6 @@ position: relative;
 }
 
 .mobile-menu{display:block;}
-
-nav{margin:0;
-background:none;}
 
 .menu li{display:block;
 margin:0;}
