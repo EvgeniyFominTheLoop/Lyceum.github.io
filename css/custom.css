@@ -34,4 +34,6 @@ color: black;}
 		right: 4%;
 		left: 4%;
 	}
+
+	.carousel-caption h1 {font-size: 27px;}
 }
