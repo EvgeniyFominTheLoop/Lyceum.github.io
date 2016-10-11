@@ -1,15 +1,20 @@
 /* RESET STYLES */
-/**, html, ul, li { margin:0; padding:0 }*/
+*, html, ul, li { margin:0; padding:0 }
 
-a:visited{
-	color:#fff !important;
-	background: #3E4156 !important;
+
+
+
+
+.menu li a:active,a:focus, a:visited{
+	outline: none;
+	text-decoration:none;
+	color: #fff;
+	background:#3E4156 !important;
 }
 
-.menu li a:hover, .menu li:hover > a{
-	color:#fff;
-	background:#9CA3DA !important;
-}
+.menu li a:hover, .menu li:hover > a{color:#fff;
+background:#9CA3DA !important;}
+
 
 *{ 
 	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
@@ -41,7 +46,7 @@ a:visited{
 	text-decoration:none;
 	padding:11px;
 	display:block;
-	color:#ffffff;
+	color:#fff;
 	border-radius: 0px;
 
 /* ПЛАВНОСТЬ ИЗМЕНЕНИЯ ЦВЕТА ПРИ НАВЕДЕНИИ */
@@ -57,14 +62,14 @@ a:visited{
 	width:100%;
 	padding:11px;
 	background:#3E4156;
-	color:#ffffff;
+	color:#fff;
 	text-transform:uppercase;
 	font-weight:600;
 }
 
 .mobile-menu:hover{
 	background:#3E4156;
-	color:#ffffff;
+	color:#fff;
 	text-decoration:none;
 }
 
@@ -87,13 +92,21 @@ a:visited{
 	margin:0;}
 
 .menu li a {
-	background:#ffffff;
+	background:#fff;
 	color:#797979;
 	border-top:1px solid #e0e0e0;
-	border-left:3px solid #ffffff;}
+	border-left:3px solid #fff;
+}
+
+.menu li a:active, a:visited{
+	outline: none;
+	text-decoration:none;
+	color: #797979;
+	background:#fff !important;
+}
 
 .menu li a:hover, .menu li:hover > a{
-	background:#f0f0f0;
 	color:#797979;
+	background:#f0f0f0 !important;
 	border-left:3px solid #9CA3DA;}
 }
