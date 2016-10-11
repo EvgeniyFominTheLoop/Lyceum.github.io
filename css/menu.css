@@ -1,16 +1,19 @@
 /* RESET STYLES */
 *, html, ul, li { margin:0; padding:0 }
 
-.menu li a:active,a:focus, a:visited{
+.menu2 li a:active, .menu2 li a:focus, .menu2 li a:visited,
+.menu li a:active, .menu li a:focus, .menu li a:visited, a:focus {
 	outline: none;
 	text-decoration:none;
 	color: #fff;
 	background:#3E4156 !important;
 }
 
-.menu li a:hover, .menu li:hover > a{color:#fff;
-background:#9CA3DA !important;}
-
+.menu2 li a:hover, .menu2 li:hover > a,
+.menu li a:hover, .menu li:hover > a {
+	color:#fff;
+	background:#9CA3DA !important;
+}
 
 *{ 
 	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
@@ -18,25 +21,24 @@ background:#9CA3DA !important;}
 	box-sizing: border-box;         /* Opera/IE 8+ */
 }
 
-.menu{
+.menu2, .menu{
 	display:block;
 	width:100%;
 	position:fixed;
-	z-index:2;
+	z-index:92;
 	background:#3E4156;
 	text-align: center;
 }
 
-.menu li{
+.menu2 li, .menu li{
 	display: inline-block;
-	position: relative;
 	z-index:100;
 	float: none;
 }
 
-.menu li+li{margin-left: 0px !important;}
+.menu2 li+li, .menu li+li{margin-left: 0px !important;}
 
-.menu li a {
+.menu2 li a, .menu li a {
 	font-weight:600;
 	font-size: 16px;
 	text-decoration:none;
@@ -69,38 +71,56 @@ background:#9CA3DA !important;}
 	text-decoration:none;
 }
 
+@media (min-width: 768px) {
+
+.menu2{
+	width:auto;
+	position:inherit;
+	z-index:10;
+	text-align: left;}
+
+.menu2 li{
+	z-index:90;
+	width:100%;
+	float: none;}
+}
+
 @media (min-width: 768px) and (max-width: 979px) {
 
-.menu ul {top:37px;}
-.menu li a{font-size:12px;padding:8px;}
+.menu2 ul, .menu ul {top:37px;}
+.menu2 li a, .menu li a{font-size:12px;padding:8px;}
 }
 
 @media (max-width: 767px) {
 
-.menu{
+.menu2, .menu{
 	display:none;
 	position: relative;}
 
+.menu2{text-align: center;}
+
 .mobile-menu{display:block;}
 
-.menu li{
+.menu2 li, .menu li {
 	display:block;
 	margin:0;}
 
-.menu li a {
+.menu2 li a, .menu li a {
 	background:#fff;
 	color:#797979;
 	border-top:1px solid #e0e0e0;
 	border-left:3px solid #fff;
 }
 
-.menu li a:active, a:visited{
+.menu2 li a:active,.menu2 li a:focus,.menu2 li a:visited,
+.menu li a:active, .menu li a:visited {
 	outline: none;
 	text-decoration:none;
 	color: #797979;
 	background:#fff !important;
 }
 
+.menu2 li a:hover, .menu2 li:hover > a,
 .menu li a:hover, .menu li:hover > a{
 	color:#797979;
 	background:#f0f0f0 !important;

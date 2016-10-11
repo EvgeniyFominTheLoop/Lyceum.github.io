@@ -92,7 +92,6 @@
 
 @media screen and (max-width: 31.5em) {
 	.grid {
-		/*padding: 10px 10px 100px 10px;*/
 		padding: 20px 0px 20px 0px;
 	}
 	.grid li {
@@ -101,6 +100,11 @@
 	}
 }
 
-@media (min-width: 998px) and (max-width: 1321px) {
-	/*.grid li {margin: 0px 54px 0px 54px;}*/
+@media (min-width: 1200px) {
+	.grid li {
+		width: 290px;}
+}
+
+@media (min-width: 768px) {
+	.grid li {padding: 10px;}
 }

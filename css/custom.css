@@ -16,9 +16,40 @@ body {
 .carousel-indicators {z-index: 1;}
 
 .col-md-3, .col-md-6 {/*background: red;*/
-color: black;}
+/*color: black;*/}
 
 
+
+@media (min-width: 1200px) {
+/*	.container-fluid {padding: 0px;}*/
+}
+
+@media (min-width: 992px) {
+	.col-md-9 {
+		margin: 0px auto 0px auto;
+		float: none;}
+/*	.col-md-3 {width: 24%;}*/
+	/*.menu2 {margin-left: 9px;}*/
+}
+
+@media (min-width: 768px) {
+	/*.col-sm-6 {width: 50% !important;}*/
+}
+/*.menu2 {
+    text-align: left;
+   	z-index:1;
+	background:#3E4156;
+}
+
+.menu2 li {
+	display: block !important;
+	z-index:90;
+}*/
+
+/* ОТСТУП ОТ СЛАЙДЕРА */
+.container-fluid {margin-bottom: 10px;}
+
+/* СЛАЙДЕР НА МОБИЛЕ */
 @media (max-width: 767px) {
 	.carousel-indicators li {
 		width: 20px;
@@ -34,6 +65,7 @@ color: black;}
 		right: 4%;
 		left: 4%;
 	}
-
-	/*.carousel-caption h1 {font-size: 27px;}*/
+	.col-xs-12 {
+		/*padding: 0;*/
+	}
 }
