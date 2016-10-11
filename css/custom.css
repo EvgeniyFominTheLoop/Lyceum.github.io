@@ -17,3 +17,14 @@ body {
 
 .col-md-3, .col-md-6 {/*background: red;*/
 color: black;}
+
+
+@media (max-width: 767px) {
+	.carousel-indicators li {
+		width: 20px;
+		height: 20px;}
+	
+	.carousel-indicators .active {
+		width: 22px;
+		height: 22px;}
+}
