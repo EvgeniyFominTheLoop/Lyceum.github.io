@@ -27,4 +27,8 @@ color: black;}
 	.carousel-indicators .active {
 		width: 22px;
 		height: 22px;}
+
+	.carousel-caption {padding-bottom: 30px;}
+
+	.carousel-caption h1 {font-size: 29px;}
 }
