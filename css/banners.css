@@ -100,3 +100,7 @@
 		min-width: 300px;
 	}
 }
+
+@media (min-width: 998px) and (max-width: 1321px) {
+	/*.grid li {margin: 0px 54px 0px 54px;}*/
+}
