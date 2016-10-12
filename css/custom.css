@@ -9,12 +9,37 @@ body {
     margin:0;
     padding:0;}
 
-/*footer {
-	background-image: url(../images/footer.jpg);
+footer {
+	/*background-image: url(../images/footer.jpg);*/
+	background:#3E4156;
+	height: 60px;
+	margin-top: 20px;
+	font-size: 14px;
 }
-*/
 
+.mail-us {
+	padding: 8px;
+}
 
+.footer-left {
+	text-align: left;
+}
+
+.footer-right {
+	text-align: right;
+}
+
+footer a, footer p {
+	color: #fff;
+	text-decoration: none;
+	margin: 0;
+}
+
+footer a:active, footer a:focus, footer a:visited, footer a:hover {
+	outline: none;
+	text-decoration:underline;
+	color: #fff;
+}
 
 
 
@@ -28,7 +53,7 @@ body {
 .carousel-indicators {z-index: 1;}
 
 /* ОТСТУП ОТ СЛАЙДЕРА */
-.container-fluid {margin-bottom: 10px;}
+.margin-bottom {margin-bottom: 10px;}
 
 
 @media (min-width: 1200px) {
