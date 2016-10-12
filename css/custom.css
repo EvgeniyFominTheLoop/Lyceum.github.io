@@ -9,15 +9,26 @@ body {
     margin:0;
     padding:0;}
 
+/*footer {
+	background-image: url(../images/footer.jpg);
+}
+*/
+
+
+
+
+
+
+
+
 /* ИКОНКИ МЕНЮ */
 .fa{margin-right: 3px;}
 
 /* ПОЛОЖЕНИЕ Z ДЛЯ КНОПОК СЛАЙДЕРА */
 .carousel-indicators {z-index: 1;}
 
-.col-md-3, .col-md-6 {/*background: red;*/
-/*color: black;*/}
-
+/* ОТСТУП ОТ СЛАЙДЕРА */
+.container-fluid {margin-bottom: 10px;}
 
 
 @media (min-width: 1200px) {
@@ -28,29 +39,15 @@ body {
 	.col-md-9 {
 		margin: 0px auto 0px auto;
 		float: none;}
-/*	.col-md-3 {width: 24%;}*/
-	/*.menu2 {margin-left: 9px;}*/
 }
 
 @media (min-width: 768px) {
 	/*.col-sm-6 {width: 50% !important;}*/
 }
-/*.menu2 {
-    text-align: left;
-   	z-index:1;
-	background:#3E4156;
-}
 
-.menu2 li {
-	display: block !important;
-	z-index:90;
-}*/
 
-/* ОТСТУП ОТ СЛАЙДЕРА */
-.container-fluid {margin-bottom: 10px;}
-
-/* СЛАЙДЕР НА МОБИЛЕ */
 @media (max-width: 767px) {
+	/* СЛАЙДЕР НА МОБИЛЕ */
 	.carousel-indicators li {
 		width: 20px;
 		height: 20px;}
@@ -63,9 +60,8 @@ body {
 
 	.carousel-caption {
 		right: 4%;
-		left: 4%;
-	}
-	.col-xs-12 {
-		/*padding: 0;*/
-	}
+		left: 4%;}
+
+	/* ОБНУЛЕНИЕ ПОЛЕЙ ВОКРУГ ВЕРТИКАЛЬНОГО МОБИЛЬНОГО МЕНЮ */
+	.reset-padding {padding: 0;}
 }

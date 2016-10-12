@@ -28,7 +28,26 @@
 	z-index:92;
 	background:#3E4156;
 	text-align: center;
+	text-shadow: 0 1px 2px rgba(0,0,0,.4);
 }
+
+.menu2 p {
+	display: inline-block;
+	z-index:100;
+	float: none;
+	font-weight:900;
+	font-size: 16px;
+	padding:11px;
+	margin: 0;
+	background:#9CA3DA;
+	width: 100%;
+/*	border: 2px solid #3E4156;
+	border-bottom:none;*/
+}
+
+/*.border {
+
+}*/
 
 .menu2 li, .menu li{
 	display: inline-block;
@@ -82,7 +101,8 @@
 .menu2 li{
 	z-index:90;
 	width:100%;
-	float: none;}
+	float: none;
+	border-top: 1px solid #797979}
 }
 
 @media (min-width: 768px) and (max-width: 979px) {
@@ -92,6 +112,8 @@
 }
 
 @media (max-width: 767px) {
+
+.menu2 p {display: none;}
 
 .menu2, .menu{
 	display:none;
