@@ -11,22 +11,15 @@ body {
 
 footer {
 	/*background-image: url(../images/footer.jpg);*/
-	background:#3E4156;
-	height: 60px;
+	/*position: absolute;*/
+    bottom: 0;
+    width: 100%;
+    height: 60px;
 	margin-top: 20px;
-	font-size: 14px;
-}
-
-.mail-us {
-	padding: 8px;
-}
-
-.footer-left {
-	text-align: left;
-}
-
-.footer-right {
-	text-align: right;
+	/*font-size: 14px;*/
+	line-height: 16px;
+	background:#3E4156;
+/*	z-index: 999;*/
 }
 
 footer a, footer p {
@@ -41,8 +34,17 @@ footer a:active, footer a:focus, footer a:visited, footer a:hover {
 	color: #fff;
 }
 
+footer a img {
+/*	max-height: 100%;*/
+	height: 60px;
+	width: auto;
+/*	position: relative;*/
+	/*max-width: 100%;*/
+}
 
-
+.footer-text {
+	padding: 10px 0 0 10px;
+}
 
 
 
@@ -68,7 +70,9 @@ footer a:active, footer a:focus, footer a:visited, footer a:hover {
 
 @media (min-width: 768px) {
 	/*.col-sm-6 {width: 50% !important;}*/
-}
+
+	/*ЧТОБЫ ВОРОНА НЕ ВЫЛАЗИЛА НА ПЛАНШЕТИКАХ*/
+	/*.col-sm-2 {width: 11%;}*/
 
 
 @media (max-width: 767px) {
