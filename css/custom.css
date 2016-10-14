@@ -82,5 +82,7 @@ footer a:active, footer a:focus, footer a:visited, footer a:hover {
 /* ОБНУЛЕНИЕ ПОЛЕЙ ВОКРУГ ВЕРТИКАЛЬНОГО МОБИЛЬНОГО МЕНЮ */
 .reset-padding {padding: 0;}
 
-footer {height: 120px;}
+footer {height: 80px;}
+
+.lyceum {height: 40px;}
 }
