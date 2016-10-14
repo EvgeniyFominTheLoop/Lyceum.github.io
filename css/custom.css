@@ -13,10 +13,10 @@ body {
 footer {
     bottom: 0;
     width: 100%;
-    height: 58px;
 	margin-top: 20px;
 	/*font-size: 14px;*/
 	background:#3E4156;
+	overflow: hidden;
 }
 
 footer a, footer p {
@@ -39,8 +39,8 @@ footer a:active, footer a:focus, footer a:visited, footer a:hover {
 	/*opacity: 0.5;*/
 }
 
-.wezom {
-	max-width: 90%;
+.wezom-img {
+	width: 90%;
     height: auto;
 /*    margin: 3px 0 0 3px;*/
 }
@@ -65,16 +65,14 @@ footer a:active, footer a:focus, footer a:visited, footer a:hover {
 }
 
 @media (min-width: 992px) {
-.col-md-9 {
+.margin-float {
 	margin: 0px auto 0px auto;
 	float: none;}
-footer {overflow: hidden;}
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
 .wezom-pad {padding-left: 0px;}
 .footer-text {font-size: 11px;}
-footer {overflow: hidden;}
 }
 
 @media (max-width: 767px) {
@@ -95,8 +93,6 @@ footer {overflow: hidden;}
 
 /* ОБНУЛЕНИЕ ПОЛЕЙ ВОКРУГ ВЕРТИКАЛЬНОГО МОБИЛЬНОГО МЕНЮ */
 .reset-padding {padding: 0;}
-
-footer {height: 80px;}
 
 .lyceum-img {height: 29px;}
 
