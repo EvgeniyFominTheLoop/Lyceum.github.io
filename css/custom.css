@@ -31,7 +31,7 @@ footer a:active, footer a:focus, footer a:visited, footer a:hover {
 }
 
 /* ИКОНКИ МЕНЮ */
-.fa{margin-right: 3px;}
+.fa{margin-right: 6px;}
 
 /* ПОЛОЖЕНИЕ Z ДЛЯ КНОПОК СЛАЙДЕРА */
 .carousel-indicators {z-index: 1;}
@@ -58,18 +58,31 @@ footer a:active, footer a:focus, footer a:visited, footer a:hover {
     height: auto;
 }
 
-@media (min-width: 992px) {
+@media (min-width: 992px) and (max-width: 1199px) {
 /* ОТСТУП ВНУТРИ КОНТЕЙНЕРА С БАННЕРАМИ */
 .margin-float {
 	margin: 0px auto 0px auto;
 	float: none;}
+
+.footer-text {padding-top: 26px;}
+
+.wezom-img {padding-top: 3%;}
 }
+
+
 
 
 
 @media (min-width: 768px) and (max-width: 991px) {
 /*.wezom-pad {padding-left: 0px;}*/
-.footer-text {font-size: 11px;}
+.footer-text {
+	padding-top: 20px;
+	font-size: 11px;}
+
+.col-padding-wezom {
+	padding-left: 5px;
+	padding-right: 5px;
+}
 }
 
 
