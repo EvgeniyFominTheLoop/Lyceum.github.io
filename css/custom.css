@@ -14,7 +14,6 @@ footer {
     bottom: 0;
     width: 100%;
 	margin-top: 20px;
-	/*font-size: 14px;*/
 	background:#3E4156;
 	overflow: hidden;
 }
@@ -31,25 +30,6 @@ footer a:active, footer a:focus, footer a:visited, footer a:hover {
 	color: #fff;
 }
 
-.lyceum-img {
-	height: 54px;
-	width: auto;
-	/*padding-top: 5px;*/
-    /*margin: 3px 0 0 3px;*/
-	/*opacity: 0.5;*/
-}
-
-.wezom-img {
-	width: 90%;
-    height: auto;
-/*    margin: 3px 0 0 3px;*/
-}
-
-.footer-text {
-	padding-top: 10px;
-	font-size: 13px;
-}
-
 /* ИКОНКИ МЕНЮ */
 .fa{margin-right: 3px;}
 
@@ -59,23 +39,43 @@ footer a:active, footer a:focus, footer a:visited, footer a:hover {
 /* ОТСТУП ОТ СЛАЙДЕРА */
 .margin-bottom {margin-bottom: 10px;}
 
+.footer-text {
+	padding-top: 10px;
+	font-size: 13px;
+}
 
-@media (min-width: 1200px) {
-.wezom-pad {padding-left: 0px;}
+/*КАРТИНКА ЛИЦЕЯ В FOOTER*/
+.lyceum-img {
+	width: 100%;
+    height: auto;
+    padding-top: 3px;
+	/*opacity: 0.5;*/
+}
+
+/*КАРТИНКА WEZOM В FOOTER*/
+.wezom-img {
+	width: 100%;
+    height: auto;
 }
 
 @media (min-width: 992px) {
+/* ОТСТУП ВНУТРИ КОНТЕЙНЕРА С БАННЕРАМИ */
 .margin-float {
 	margin: 0px auto 0px auto;
 	float: none;}
 }
 
+
+
 @media (min-width: 768px) and (max-width: 991px) {
-.wezom-pad {padding-left: 0px;}
+/*.wezom-pad {padding-left: 0px;}*/
 .footer-text {font-size: 11px;}
 }
 
+
+
 @media (max-width: 767px) {
+
 /* СЛАЙДЕР НА МОБИЛЕ */
 .carousel-indicators li {
 	width: 20px;
@@ -94,13 +94,26 @@ footer a:active, footer a:focus, footer a:visited, footer a:hover {
 /* ОБНУЛЕНИЕ ПОЛЕЙ ВОКРУГ ВЕРТИКАЛЬНОГО МОБИЛЬНОГО МЕНЮ */
 .reset-padding {padding: 0;}
 
-.lyceum-img {height: 29px;}
+.footer-text {
+	padding-top: 5px;
+	font-size: 8px;}
 
-.lyceum-pad {padding-top: 3px;}
+/* ПОЛЯ ВНУТРИ КОЛОНОК В FOOTER */
+.col-padding {
+	padding-left: 5px;
+	padding-right: 5px;
+}
 
-.footer-text {font-size: 8px;}
+/* ВЫСОТА КОЛОНОК В FOOTER */
+.col-height {height: 34px;}
 
-.wezom-img {width: 100%; /*padding-top: 7px;*/}
+.lyceum-img {
+	max-height: 31px;
+	width: auto;}
+
+.wezom-img {
+	max-height: 34px;
+	width: auto;}
 
 /*footer {padding-bottom: 4px;}*/
 
