@@ -5,16 +5,16 @@ header {width: 100%;}
 body {
 	width: 100%;
     font-family: 'Trebuchet MS', Calibri, Arial, sans-serif;
-    color:#fff;
-    margin:0;
-    padding:0;
+    color: #fff;
+    margin: 0;
+    padding: 0;
 }
 
 footer {
     bottom: 0;
     width: 100%;
 	margin-top: 20px;
-	background:#3E4156;
+	background: #3E4156;
 	overflow: hidden;
 }
 
@@ -26,7 +26,7 @@ footer a, footer p {
 
 footer a:active, footer a:focus, footer a:visited, footer a:hover {
 	outline: none;
-	text-decoration:underline;
+	text-decoration: underline;
 	color: #fff;
 }
 
@@ -53,6 +53,7 @@ footer a:active, footer a:focus, footer a:visited, footer a:hover {
 .wezom-img-2 {display: none;}
 
 
+
 @media (min-width: 1200px) {
 .col-padding {
 	padding-left: 5px;
@@ -65,6 +66,8 @@ footer a:active, footer a:focus, footer a:visited, footer a:hover {
 .col-xs-pull-9 {right: 0;}
 .col-xs-push-3 {left: 0;}
 }
+
+
 
 @media (min-width: 992px) and (max-width: 1199px) {
 
@@ -88,8 +91,6 @@ footer a:active, footer a:focus, footer a:visited, footer a:hover {
 
 
 
-
-
 @media (min-width: 768px) and (max-width: 991px) {
 
 .footer-text {font-size: 9px;}
@@ -100,8 +101,7 @@ footer a:active, footer a:focus, footer a:visited, footer a:hover {
 
 .col-padding {
 	padding-left: 3px;
-	padding-right: 3px;
-}
+	padding-right: 3px;}
 
 /*ОБНУЛЕНИЕ КЛАССОВ ВО ИЗБЕЖАНИЕ ПОЛОМОК*/
 .col-xs-pull-9 {right: 0;}
@@ -142,8 +142,7 @@ footer a:active, footer a:focus, footer a:visited, footer a:hover {
 /* ПОЛЯ ВНУТРИ КОЛОНОК В FOOTER */
 .col-padding {
 	padding-left: 4px;
-	padding-right: 4px;
-}
+	padding-right: 4px;}
 
 /* ВЫСОТА КОЛОНОК В FOOTER */
 .col-height {height: 100px;}
@@ -158,6 +157,8 @@ footer {padding-bottom: 5px;}
 
 }
 
+
+/*ПРОМЕЖУТОЧНЫЙ, ДЛЯ ГОРИЗОНТАЛЬНОГО ПОЛОЖЕНИЯ*/
 @media (min-width: 450px) and (max-width: 767px) {
 	
 	.col-height {height: 80px;}
