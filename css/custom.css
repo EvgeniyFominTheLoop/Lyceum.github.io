@@ -154,7 +154,7 @@ footer a:active, footer a:focus, footer a:visited, footer a:hover {
 	padding-right: 3px;}
 
 /* ВЫСОТА КОЛОНОК В FOOTER */
-.col-height {height: 80px;}
+.col-height {height: 100px;}
 
 .lyceum-img {margin-top: 20%;}
 
@@ -182,7 +182,7 @@ footer {padding-bottom: 5px;}
 /* ПРОМЕЖУТОЧНЫЕ (ДЛЯ ГОРИЗОНТАЛЬНОГО ПОЛОЖЕНИЯ) */
 @media (min-width: 450px) and (max-width: 767px) {
 	
-.col-height {height: 100px;}
+.col-height {height: 80px;}
 
 .lyceum-img {
 	width: auto;
