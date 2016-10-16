@@ -122,14 +122,14 @@ footer a:active, footer a:focus, footer a:visited, footer a:hover {
 	padding-top: 5px;
 	font-size: 12px;}
 
-.text-padding {padding-top: 0;}
+.text-padding {padding-top: 0 !important;}
 
 .text-center {text-align: left;}
 
 /* ПОЛЯ ВНУТРИ КОЛОНОК В FOOTER */
 .col-padding {
-	padding-left: 3px;
-	padding-right: 3px;
+	padding-left: 4px;
+	padding-right: 4px;
 }
 
 /* ВЫСОТА КОЛОНОК В FOOTER */
