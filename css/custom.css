@@ -197,7 +197,7 @@ footer {padding-bottom: 0;}
 
 @media (min-width: 520px) and (max-width: 767px) {
 
-.col-height {height: 84px;}
+.col-height {height: 100px;}
 
 .footer-text {
 	font-size: 14px;}
