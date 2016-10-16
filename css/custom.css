@@ -148,6 +148,22 @@ footer a:active, footer a:focus, footer a:visited, footer a:hover {
 /* ОБНУЛЕНИЕ ПОЛЕЙ ВОКРУГ ВЕРТИКАЛЬНОГО МОБИЛЬНОГО МЕНЮ */
 .reset-padding {padding: 0;}
 
+/* ПОЛЯ ВНУТРИ КОЛОНОК В FOOTER */
+.col-padding {
+	padding-left: 3px;
+	padding-right: 3px;}
+
+/* ВЫСОТА КОЛОНОК В FOOTER */
+.col-height {height: 80px;}
+
+.lyceum-img {margin-top: 20%;}
+
+.wezom-img {display: none;}
+
+.wezom-img-2 {
+	display: block;
+	margin-top: 5%;}
+
 .footer-text {
 	margin-top: 1%;
 	font-size: 12px;}
@@ -158,32 +174,15 @@ footer a:active, footer a:focus, footer a:visited, footer a:hover {
 
 .text-center {text-align: left;}
 
-/* ПОЛЯ ВНУТРИ КОЛОНОК В FOOTER */
-.col-padding {
-	padding-left: 3px;
-	padding-right: 3px;}
-
-/* ВЫСОТА КОЛОНОК В FOOTER */
-.col-height {height: 100px;}
-
-.lyceum-img {margin-top: 20%;}
-
-.wezom-img {display: none;}
-
-.wezom-img-2 {
-	display: block;
-	margin-top: 5%;}
-
 footer {padding-bottom: 5px;}
 }
 
 
-/*ПРОМЕЖУТОЧНЫЙ, ДЛЯ ГОРИЗОНТАЛЬНОГО ПОЛОЖЕНИЯ*/
+
+/* ПРОМЕЖУТОЧНЫЕ (ДЛЯ ГОРИЗОНТАЛЬНОГО ПОЛОЖЕНИЯ) */
 @media (min-width: 450px) and (max-width: 767px) {
 	
-.col-height {height: 80px;}
-
-.text-right {text-align: center;}
+.col-height {height: 100px;}
 
 .lyceum-img {
 	width: auto;
@@ -191,6 +190,8 @@ footer {padding-bottom: 5px;}
 	margin-top: 5%;}
 
 .wezom-img-2 {margin-top: 0;}
+
+.text-right {text-align: center;}
 
 footer {padding-bottom: 0;}
 }
