@@ -60,6 +60,10 @@ footer a:active, footer a:focus, footer a:visited, footer a:hover {
 }
 
 .lyceum-img {margin-top: 15%;}
+
+/*ОБНУЛЕНИЕ КЛАССОВ ВО ИЗБЕЖАНИЕ ПОЛОМОК*/
+.col-xs-pull-9 {right: 0;}
+.col-xs-push-3 {left: 0;}
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
@@ -76,6 +80,10 @@ footer a:active, footer a:focus, footer a:visited, footer a:hover {
 .lyceum-img {margin-top: 5%;}
 
 .wezom-img {padding-top: 10%;}
+
+/*ОБНУЛЕНИЕ КЛАССОВ ВО ИЗБЕЖАНИЕ ПОЛОМОК*/
+.col-xs-pull-9 {right: 0;}
+.col-xs-push-3 {left: 0;}
 }
 
 
@@ -94,6 +102,11 @@ footer a:active, footer a:focus, footer a:visited, footer a:hover {
 	padding-left: 3px;
 	padding-right: 3px;
 }
+
+/*ОБНУЛЕНИЕ КЛАССОВ ВО ИЗБЕЖАНИЕ ПОЛОМОК*/
+.col-xs-pull-9 {right: 0;}
+.col-xs-push-3 {left: 0;}
+
 }
 
 
@@ -122,7 +135,7 @@ footer a:active, footer a:focus, footer a:visited, footer a:hover {
 	padding-top: 5px;
 	font-size: 12px;}
 
-.text-padding {padding-top: 0 !important;}
+.text-padding {padding-top: 0;}
 
 .text-center {text-align: left;}
 
@@ -145,6 +158,14 @@ footer {padding-bottom: 5px;}
 
 }
 
-@media (min-width: 453px) and (max-width: 767px) {
+@media (min-width: 450px) and (max-width: 767px) {
+	
 	.col-height {height: 80px;}
+	
+	.lyceum-img {
+	width: auto;
+	max-height: 65px;
+	margin-top: 5%;}
+
+	.text-right {text-align: center;}
 }
