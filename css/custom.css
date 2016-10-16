@@ -194,3 +194,12 @@ footer {padding-bottom: 5px;}
 
 footer {padding-bottom: 0;}
 }
+
+@media (min-width: 490px) and (max-width: 767px) {
+	
+.footer-text {
+	font-size: 13px;}
+
+.footer-text-2 {
+	font-size: 13px;}
+}
