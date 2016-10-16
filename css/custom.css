@@ -82,7 +82,7 @@ footer a:active, footer a:focus, footer a:visited, footer a:hover {
 
 .lyceum-img {margin-top: 5%;}
 
-.wezom-img {padding-top: 10%;}
+.wezom-img {margin-top: 10%;}
 
 /*ОБНУЛЕНИЕ КЛАССОВ ВО ИЗБЕЖАНИЕ ПОЛОМОК*/
 .col-xs-pull-9 {right: 0;}
@@ -97,7 +97,7 @@ footer a:active, footer a:focus, footer a:visited, footer a:hover {
 
 .lyceum-img {margin-top: 5%;}
 
-.wezom-img {padding-top: 10%;}  /*ПРОВЕРОЧКА*/
+.wezom-img {margin-top: 10%;}  /*ПРОВЕРОЧКА*/
 
 .col-padding {
 	padding-left: 3px;
@@ -106,7 +106,6 @@ footer a:active, footer a:focus, footer a:visited, footer a:hover {
 /*ОБНУЛЕНИЕ КЛАССОВ ВО ИЗБЕЖАНИЕ ПОЛОМОК*/
 .col-xs-pull-9 {right: 0;}
 .col-xs-push-3 {left: 0;}
-
 }
 
 
@@ -151,22 +150,25 @@ footer a:active, footer a:focus, footer a:visited, footer a:hover {
 
 .wezom-img {display: none;}
 
-.wezom-img-2 {display: block;}
+.wezom-img-2 {
+	display: block;
+	margin-top: 5%;}
 
 footer {padding-bottom: 5px;}
-
 }
 
 
 /*ПРОМЕЖУТОЧНЫЙ, ДЛЯ ГОРИЗОНТАЛЬНОГО ПОЛОЖЕНИЯ*/
 @media (min-width: 450px) and (max-width: 767px) {
 	
-	.col-height {height: 80px;}
-	
-	.lyceum-img {
-	width: auto;
-	max-height: 65px;
-	margin-top: 5%;}
+.col-height {height: 80px;}
 
-	.text-right {text-align: center;}
+.text-right {text-align: center;}
+
+.lyceum-img {
+width: auto;
+max-height: 65px;
+margin-top: 5%;}
+
+.wezom-img-2 {margin-top: 0;}
 }
