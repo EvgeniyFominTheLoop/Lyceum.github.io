@@ -41,22 +41,16 @@ footer a:active, footer a:focus, footer a:visited, footer a:hover {
 
 .footer-text {
 	padding-top: 10px;
-	font-size: 13px;
-}
+	font-size: 13px;}
 
-/*КАРТИНКА ЛИЦЕЯ В FOOTER*/
-.lyceum-img {
+/*КАРТИНКИ В FOOTER*/
+.lyceum-img, .wezom-img, .wezom-img-2 {
 	width: 100%;
     height: auto;
-    padding-top: 15%;
 	/*opacity: 0.5;*/
 }
 
-/*КАРТИНКА WEZOM В FOOTER*/
-.wezom-img {
-	width: 100%;
-    height: auto;
-}
+.wezom-img-2 {display: none;}
 
 
 @media (min-width: 1200px) {
@@ -64,17 +58,22 @@ footer a:active, footer a:focus, footer a:visited, footer a:hover {
 	padding-left: 5px;
 	padding-right: 5px;
 }
+
+.lyceum-img {margin-top: 15%;}
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
+
 /* ОТСТУП ВНУТРИ КОНТЕЙНЕРА С БАННЕРАМИ */
 .margin-float {
 	margin: 0px auto 0px auto;
 	float: none;}
 
-.footer-text {padding-top: 20px;font-size: 11px;}
+.footer-text {
+	padding-top: 20px;
+	font-size: 11px;}
 
-.lyceum-img {padding-top: 5%;}
+.lyceum-img {margin-top: 5%;}
 
 .wezom-img {padding-top: 10%;}
 }
@@ -84,15 +83,12 @@ footer a:active, footer a:focus, footer a:visited, footer a:hover {
 
 
 @media (min-width: 768px) and (max-width: 991px) {
-/*.wezom-pad {padding-left: 0px;}*/
-.footer-text {
-/*	padding-top: 20px;*/
-	font-size: 9px;
-}
 
-.lyceum-img {padding-top: 5%;}
+.footer-text {font-size: 9px;}
 
-.wezom-img {padding-top: 10%;}
+.lyceum-img {margin-top: 5%;}
+
+.wezom-img {padding-top: 10%;}  /*ПРОВЕРОЧКА*/
 
 .col-padding {
 	padding-left: 3px;
@@ -124,32 +120,31 @@ footer a:active, footer a:focus, footer a:visited, footer a:hover {
 
 .footer-text {
 	padding-top: 5px;
-	font-size: 7px;}
+	font-size: 12px;}
 
-.text-center {text-align: right;}
+.text-padding {padding-top: 0;}
+
+.text-center {text-align: left;}
 
 /* ПОЛЯ ВНУТРИ КОЛОНОК В FOOTER */
 .col-padding {
-	padding-left: 2px;
-	padding-right: 1px;
+	padding-left: 5px;
+	padding-right: 5px;
 }
 
 /* ВЫСОТА КОЛОНОК В FOOTER */
-.col-height {height: 55px;}
+.col-height {height: 100px;}
 
-.lyceum-img {
-	max-height: 45px;
-	width: auto;
-	padding-top: 3%;}
+.lyceum-img {margin-top: 10%;}
 
-.wezom-img {
-	max-height: 34px;
-	width: auto;}
+.wezom-img {display: none;}
 
-/*footer {padding-bottom: 4px;}*/
+.wezom-img-2 {display: block;}
+
+footer {padding-bottom: 5px;}
 
 }
 
-@media (min-width: 405px) and (max-width: 767px) {
-	.col-height {height: 45px;}
+@media (min-width: 453px) and (max-width: 767px) {
+	.col-height {height: 80px;}
 }
