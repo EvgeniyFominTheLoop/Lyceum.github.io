@@ -39,9 +39,7 @@ footer a:active, footer a:focus, footer a:visited, footer a:hover {
 /* ОТСТУП ОТ СЛАЙДЕРА */
 .margin-bottom {margin-bottom: 10px;}
 
-.footer-text {
-	padding-top: 10px;
-	font-size: 13px;}
+.footer-text, .footer-text-2 {margin-top: 6%;}
 
 /*КАРТИНКИ В FOOTER*/
 .lyceum-img, .wezom-img, .wezom-img-2 {
@@ -62,6 +60,12 @@ footer a:active, footer a:focus, footer a:visited, footer a:hover {
 
 .lyceum-img {margin-top: 15%;}
 
+.footer-text {
+	margin-top: 1%;}
+
+.footer-text-2 {
+	margin-top: 7%;}
+
 /*ОБНУЛЕНИЕ КЛАССОВ ВО ИЗБЕЖАНИЕ ПОЛОМОК*/
 .col-xs-pull-9 {right: 0;}
 .col-xs-push-3 {left: 0;}
@@ -76,9 +80,17 @@ footer a:active, footer a:focus, footer a:visited, footer a:hover {
 	margin: 0px auto 0px auto;
 	float: none;}
 
+.col-padding {
+	padding-left: 0px;
+	padding-right: 1px;}
+
 .footer-text {
-	padding-top: 20px;
-	font-size: 11px;}
+	font-size: 12px;
+	margin-top: 7%;}
+
+.footer-text-2 {
+	font-size: 12px;
+	margin-top: 15%;}
 
 .lyceum-img {margin-top: 5%;}
 
@@ -93,7 +105,13 @@ footer a:active, footer a:focus, footer a:visited, footer a:hover {
 
 @media (min-width: 768px) and (max-width: 991px) {
 
-.footer-text {font-size: 9px;}
+.footer-text {
+	font-size: 9px;
+	margin-top: 7%;}
+
+.footer-text-2 {
+	font-size: 9px;
+	margin-top: 15%;}
 
 .lyceum-img {margin-top: 5%;}
 
@@ -131,17 +149,17 @@ footer a:active, footer a:focus, footer a:visited, footer a:hover {
 .reset-padding {padding: 0;}
 
 .footer-text {
-	padding-top: 5px;
+	margin-top: 5px;
 	font-size: 12px;}
 
-.text-padding {padding-top: 0;}
+.text-margin {margin-top: 0;}
 
 .text-center {text-align: left;}
 
 /* ПОЛЯ ВНУТРИ КОЛОНОК В FOOTER */
 .col-padding {
-	padding-left: 4px;
-	padding-right: 4px;}
+	padding-left: 3px;
+	padding-right: 3px;}
 
 /* ВЫСОТА КОЛОНОК В FOOTER */
 .col-height {height: 100px;}
@@ -166,9 +184,25 @@ footer {padding-bottom: 5px;}
 .text-right {text-align: center;}
 
 .lyceum-img {
-width: auto;
-max-height: 65px;
-margin-top: 5%;}
+	width: auto;
+	max-height: 65px;
+	margin-top: 5%;}
+
+.wezom-img-2 {margin-top: 0;}
+
+footer {padding-bottom: 0;}
+}
+
+@media (min-width: 520px) and (max-width: 767px) {
+	
+.col-height {height: 80px;}
+
+.text-right {text-align: center;}
+
+.lyceum-img {
+	width: auto;
+	max-height: 65px;
+	margin-top: 5%;}
 
 .wezom-img-2 {margin-top: 0;}
 }
