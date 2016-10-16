@@ -149,7 +149,7 @@ footer a:active, footer a:focus, footer a:visited, footer a:hover {
 .reset-padding {padding: 0;}
 
 .footer-text {
-	margin-top: 5px;
+	margin-top: 1%;
 	font-size: 12px;}
 
 .footer-text-2 {
@@ -193,18 +193,4 @@ footer {padding-bottom: 5px;}
 .wezom-img-2 {margin-top: 0;}
 
 footer {padding-bottom: 0;}
-}
-
-@media (min-width: 520px) and (max-width: 767px) {
-	
-.col-height {height: 80px;}
-
-.text-right {text-align: center;}
-
-.lyceum-img {
-	width: auto;
-	max-height: 65px;
-	margin-top: 5%;}
-
-.wezom-img-2 {margin-top: 0;}
 }
