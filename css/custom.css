@@ -195,11 +195,13 @@ footer {padding-bottom: 5px;}
 footer {padding-bottom: 0;}
 }
 
-@media (min-width: 490px) and (max-width: 767px) {
-	
+@media (min-width: 520px) and (max-width: 767px) {
+
+.col-height {height: 84px;}
+
 .footer-text {
-	font-size: 13px;}
+	font-size: 14px;}
 
 .footer-text-2 {
-	font-size: 13px;}
+	font-size: 14px;}
 }
