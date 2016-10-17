@@ -50,6 +50,8 @@ footer a:active, footer a:focus, footer a:visited, footer a:hover {
 
 .wezom-img-2 {display: none;}
 
+wbr {display: inline-block;}
+
 
 
 @media (min-width: 1200px) {
