@@ -11,6 +11,7 @@
  * Этот класс представляет собой обзор класса,
  * который выступает в качестве сброса значка.
  */
+ 
 .c-hamburger {
   float: left;
   display: block;
@@ -33,9 +34,7 @@
           transition: background 0.3s;
 }
 
-.c-hamburger:focus {
-  outline: none;
-}
+.c-hamburger:focus {outline: none;}
 
 .c-hamburger span {
   display: block;
@@ -61,13 +60,9 @@
 /*
  * Отступы между линиями
  */
-.c-hamburger span::before {
-  top: -4px;
-}
+.c-hamburger span::before {top: -4px;}
 
-.c-hamburger span::after {
-  bottom: -4px;
-}
+.c-hamburger span::after {bottom: -4px;}
 
 /*
  * «Гамбургер» в меню превращается в «x» (класс htx). 
@@ -99,13 +94,9 @@
 }
 
 /* active state, i.e. menu open */
-.c-hamburger--htx.is-active {
-  background:none; /* Цвет блока */
-}
+.c-hamburger--htx.is-active {background:none;} /* Цвет блока */
 
-.c-hamburger--htx.is-active span {
-  background: none;
-}
+.c-hamburger--htx.is-active span {background: none;}
 
 .c-hamburger--htx.is-active span::before {
   top: 0;

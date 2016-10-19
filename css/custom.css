@@ -1,5 +1,8 @@
 /*==========  Селекторы  ==========*/
 
+/* RESET STYLES */
+*, html, ul, li {margin:0; padding:0;}
+
 header {width: 100%;}
 
 body {
@@ -39,20 +42,21 @@ footer a:active, footer a:focus, footer a:visited, footer a:hover {
 /* ОТСТУП ОТ СЛАЙДЕРА */
 .margin-bottom {margin-bottom: 10px;}
 
-.footer-text, .footer-text-2 {margin-top: 6%;}
+.footer-text, .footer-text-2 {
+	margin-top: 2%;
+	font-size: 12px;
+	white-space: nowrap;}
 
 /*КАРТИНКИ В FOOTER*/
 .lyceum-img, .wezom-img, .wezom-img-2 {
-	width: 100%;
+	width: 101%;
     height: auto;
 	/*opacity: 0.5;*/
 }
 
 .wezom-img-2 {display: none;}
 
-wbr {display: inline-block;}
-
-
+/****************** МЕДИА-ЗАПРОСЫ ******************/
 
 @media (min-width: 1200px) {
 .col-padding {
@@ -62,10 +66,10 @@ wbr {display: inline-block;}
 
 .lyceum-img {margin-top: 15%;}
 
-.footer-text {
-	margin-top: 1%;}
+.footer-text {font-size: 14px;}
 
 .footer-text-2 {
+	font-size: 14px;
 	margin-top: 7%;}
 
 /*ОБНУЛЕНИЕ КЛАССОВ ВО ИЗБЕЖАНИЕ ПОЛОМОК*/
@@ -86,17 +90,9 @@ wbr {display: inline-block;}
 	padding-left: 0px;
 	padding-right: 1px;}
 
-.footer-text {
-	font-size: 12px;
-	margin-top: 7%;}
+.footer-text-2 {margin-top: 7%;}
 
-.footer-text-2 {
-	font-size: 12px;
-	margin-top: 15%;}
-
-.lyceum-img {margin-top: 5%;}
-
-.wezom-img {margin-top: 10%;}
+.lyceum-img {margin-top: 7%;}
 
 /*ОБНУЛЕНИЕ КЛАССОВ ВО ИЗБЕЖАНИЕ ПОЛОМОК*/
 .col-xs-pull-9 {right: 0;}
@@ -108,16 +104,18 @@ wbr {display: inline-block;}
 @media (min-width: 768px) and (max-width: 991px) {
 
 .footer-text {
-	font-size: 9px;
-	margin-top: 7%;}
+	font-size: 11px;
+	margin-top: 1%;}
 
 .footer-text-2 {
-	font-size: 9px;
-	margin-top: 15%;}
+	font-size: 11px;
+	margin-top: 8%;}
 
-.lyceum-img {margin-top: 5%;}
+.lyceum-img {margin-top: 20%;}
 
-.wezom-img {margin-top: 10%;}  /*ПРОВЕРОЧКА*/
+.wezom-img {display: none;}
+
+.wezom-img-2 {display: block;}
 
 .col-padding {
 	padding-left: 3px;
@@ -131,6 +129,8 @@ wbr {display: inline-block;}
 
 
 @media (max-width: 767px) {
+
+h1 {font-size: 30px;}
 
 /* СЛАЙДЕР НА МОБИЛЕ */
 .carousel-indicators li {
@@ -166,13 +166,9 @@ wbr {display: inline-block;}
 	display: block;
 	margin-top: 5%;}
 
-.footer-text {
-	margin-top: 1%;
-	font-size: 12px;}
+.footer-text {margin-top: 1%;}
 
-.footer-text-2 {
-	margin-top: 0;
-	font-size: 12px;}
+.footer-text-2 {margin-top: 0;}
 
 .text-center {text-align: left;}
 
@@ -198,13 +194,13 @@ footer {padding-bottom: 5px;}
 footer {padding-bottom: 0;}
 }
 
+
+
 @media (min-width: 520px) and (max-width: 767px) {
 
 .col-height {height: 100px;}
 
-.footer-text {
-	font-size: 14px;}
+.footer-text {font-size: 14px;}
 
-.footer-text-2 {
-	font-size: 14px;}
+.footer-text-2 {font-size: 14px;}
 }

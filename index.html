@@ -7,6 +7,13 @@
     	<meta name="keywords" content="хал, хду, хгу, мишуков, мішуков, лицей, ліцей" name="description" content="Херсонський академічний ліцей імені О.В. Мішукова Херсонської міської ради при Херсонському державному університеті">
     	<meta name="author" content="Evgeniy Fomin" />
 
+    	<!-- ТЕГИ-ОМТИМИЗАТОРЫ -->
+    	<meta name="format-detection" content="telephone=no">
+    	<meta name="format-detection" content="address=no">
+    	<meta name="MobileOptimized" content="320">
+    	<meta http-equiv="cleartype" content="on">
+
+    	<!-- КОНТРОЛЬ КЕША (ОПЦИОНАЛЬНО) -->
 		<meta http-equiv="Cache-Control" content="no-cache"/>
 		<meta http-equiv="Pragma" content="no-cache"/>
 		<meta http-equiv="Expires" content="0"/>
@@ -24,18 +31,22 @@
 		<link rel="stylesheet" type="text/css" href="css/slider.css" />
 		<link rel="stylesheet" type="text/css" href="css/animate.css" />
 
-		<style>wbr{display: inline-block;}</style>
-		
     </head>
     <body>
-    	<!-- МЕНЮ МОБИЛЬНОЕ-->
+    	<!-- ЗАГРУЗЧИК -->
+    	<div class="hidden"></div>
+		<div class="loader"> 
+			<div class="loader_inner"></div> 
+		</div>
+
+    	<!-- МЕНЮ МОБИЛЬНОЕ -->
     	<section>
 	        <a id="touch-menu" class="mobile-menu" href="#">
 		        <button class="c-hamburger c-hamburger--htx">
 		        	<span></span>
 		        </button>
 	        	МЕНЮ</a>
-    		<!-- МЕНЮ ГОРИЗОНТАЛЬНОЕ-->
+    		<!-- МЕНЮ ГОРИЗОНТАЛЬНОЕ -->
 	    	<ul class="nav nav-pills menu">
 				<li><a href="http://lyceum.com.ua/"><i class="fa fa-home"></i>ГОЛОВНА</a></li>
 				<li><a href="/litsejistam_ta_batkam"><i class="fa fa-users"></i>ЛІЦЕЇСТАМ ТА БАТЬКАМ</a></li>
@@ -177,7 +188,7 @@
 					        </button>
 				        	ГОЛОВНЕ МЕНЮ</a>
 			    		<!-- МЕНЮ ГОРИЗОНТАЛЬНОЕ-->
-				    	<ul class="nav nav-pills menu2">
+				    	<ul class="nav nav-pills menu menu2 menu-position">
 				    		<p><i class="fa fa-bars"></i> ГОЛОВНЕ МЕНЮ</p>
 							<li><a href="/zovnishnje_nezalezhne_otsinjuvannja">Зовнішнє незалежне оцінювання</a></li>
 							<li><a href="/dpa">ДПА</a></li>
@@ -227,7 +238,7 @@
 		<footer>
 			<div class="container-fluid">
 				<div class="row">
-					<div class="col-xs-3 col-sm-2 col-md-2 col-lg-1 col-padding col-height">
+					<div class="col-xs-3 col-sm-1 col-md-1 col-lg-1 col-padding col-height">
 						<div class="text-right">
 							<a target="_blank" href="http://www.lyceum.com.ua" title="Херсонський академічний ліцей імені О.В. Мішукова">
 								<img src="images/lyc_grey.png" class="lyceum-img" alt="Херсонський академічний ліцей імені О.В. Мішукова">
@@ -235,23 +246,23 @@
 						</div>
 					</div>
 
-					<div class="col-xs-9 col-sm-4 col-md-4 col-lg-4 col-padding col-height">
+					<div class="col-xs-9 col-sm-5 col-md-4 col-lg-4 col-padding col-height col-width-1">
 						<div class="text-left footer-text">
-							<p><i class="fa fa-home"></i><b>Наша адреса: </b><a target="_blank" href="https://goo.gl/maps/B2Z5voapDe12">м. Херсон, <wbr />вул. Університетська, буд. 27</a></p>
+							<p><i class="fa fa-home"></i><b>Наша адреса: </b><a target="_blank" href="https://goo.gl/maps/B2Z5voapDe12" title="Переглянути на Google Maps">м. Херсон, <wbr />вул. Університетська, буд. 27</a></p>
 							<p><i class="fa fa-phone"></i><b>Телефон: </b>+38 (0552) 32 16 34</p>
-							<p><i class="fa fa-envelope"></i><b>Пишіть нам: </b><a target="_blank" href="mailto:academlyceum@ukr.net">academlyceum@ukr.net</a></p>
-							<p><i class="fa fa-vk"></i><b>Ми Вконтакті: </b><a target="_blank" href="https://vk.com/public80694949">vk.com/public80694949</a></p>
+							<p><i class="fa fa-envelope"></i><b>Пишіть нам: </b><a target="_blank" href="mailto:academlyceum@ukr.net" title="Написати листа">academlyceum@ukr.net</a></p>
+							<p><i class="fa fa-vk"></i><b>Ми Вконтакті: </b><a target="_blank" href="https://vk.com/public80694949">Ліцей News</a></p>
 						</div>
 					</div>
 
-					<div class="col-xs-push-3 col-xs-9 col-sm-3 col-md-3 col-lg-3 col-padding"> <!-- col-xs-push-3 FOR MOBILE -->
+					<div class="col-xs-push-3 col-xs-9 col-sm-3 col-md-3 col-lg-3 col-padding col-width-2">
 						<div class="text-center footer-text-2">
 							<p><i class="fa fa-thumbs-up"></i><b>Розробка сайту</b> — <a target="_blank" href="http://wezom.com.ua" title="Розробка сайтів у Херсоні">студія Wezom</a></p>
 							<p><i class="fa fa-desktop"></i><b>Дизайн сайту</b> — <a target="_blank" href="https://vk.com/id214339030" title="Розробка сайтів у Херсоні">Фомін Євген</a></p>
 						</div>
 					</div>
 
-					<div class="col-xs-pull-9 col-xs-3 col-sm-3 col-md-3 col-lg-4 col-padding"> <!-- col-xs-pull-9 FOR MOBILE -->
+					<div class="col-xs-pull-9 col-xs-3 col-sm-3 col-md-4 col-lg-4 col-padding col-width-3">
 						<div class="text-left">
 							<a target="_blank" href="http://wezom.com.ua" title="Розробка сайтів у Херсоні">
 								<img src="images/logo_wezom_v3.png" class="wezom-img" alt="Розробка сайтів у Херсоні">
@@ -271,9 +282,8 @@
 
 		<script type="text/javascript" src="js/jquery-3.1.1.js"></script>
 		<script type="text/javascript" src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+		<!-- <script type="text/javascript" src="js/loader.js"></script> -->
     	<script type="text/javascript" src="js/menu.js"></script>
-    	<script type="text/javascript" src="js/menu2.js"></script>
-        <script type="text/javascript" src="js/hamburger.js"></script>
 		<script type="text/javascript" src="js/modernizr.custom.js"></script>
 		<script type="text/javascript" src="js/toucheffects.js"></script>
     </body>
