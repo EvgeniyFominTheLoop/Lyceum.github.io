@@ -42,8 +42,12 @@
 	border-bottom:none;*/
 }
 
-/*.border {
+/*.border {}*/
 
+/*.menu2-fixed{
+	position: fixed!important;
+	top: 44px;
+	width: 25%!important;
 }*/
 
 .menu li{
