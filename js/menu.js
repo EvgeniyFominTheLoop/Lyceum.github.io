@@ -38,3 +38,46 @@ menu.removeAttr('style');
 }); 
 
 });
+
+
+
+// $('.menu2').affix()
+// $('data-spy=«affix» data-offset-top=«185» id=«affix»').each(function(){
+// $(this).affix(‘refresh’)
+// });
+
+
+
+// $(function(){
+//     $('.menu2').affix();
+// })
+
+
+
+// $(window).on('scroll', function(e){
+// 	if ( $(e.target).scrollTop() > 500){
+// 		$('.menu2').addClass('menu2-fixed');
+// 	} else{		
+// 		$('.menu2').removeClass('menu2-fixed');
+// 	}
+// })
+
+// });
+
+
+// $('#myAffix').affix({
+//   offset: {
+//     top: 100,
+//     bottom: function () {
+//       return (this.bottom = $('.footer').outerHeight(true))
+//     }
+//   }
+// })
+
+// $(document).ready(function(){
+// $(".menu2").affix({
+// offset: {
+// top: 500
+// }
+// });
+// });
