@@ -109,7 +109,7 @@
 @media (max-width: 767px) {
 	.grid li {width: 49%;}
 /*	.grid {padding: 20px 0px 20px 0px;}*/
-	.grid figcaption h4 {font-size: 13px;}
-	.banner figcaption {height: 75px;}
+	.grid figcaption h4 {font-size: 10px;}
+	.banner figcaption {height: 76px;}
 	.grid figcaption {padding: 10px;}
 }
