@@ -29,11 +29,10 @@
 	top: 0;
 	left: 0;
 	padding: 20px;
-	background: #3E4156;
+	background: #7e7e7e; /* ЦВЕТ ФОНА ОПИСАНИЯ (#77CCDD - на всякий, как меню) */
 	color: #fff;
 	text-align: center;
 	vertical-align: middle;
-	text-shadow: 0 1px 2px rgba(0,0,0,.6);
 }
 
 .grid figcaption h4 {
@@ -44,6 +43,7 @@
 
 .grid figcaption a {
 	color: #fff;
+	text-decoration: none;
 }
 
 .banner figure {
@@ -91,12 +91,12 @@
 	transition: transform 0.4s, opacity 0.1s;
 }
 
-@media screen and (max-width: 31.5em) {
+/*@media screen and (max-width: 31.5em) {
 	.grid {padding: 20px 0px 20px 0px;}
 	.grid li {
 		width: 100%;
 		min-width: 300px;}
-}
+}*/
 
 @media (min-width: 1200px) {
 	.grid li {width: 290px;}
@@ -104,4 +104,12 @@
 
 @media (min-width: 768px) {
 	.grid li {padding: 10px;}
+}
+
+@media (max-width: 767px) {
+	.grid li {width: 49%;}
+/*	.grid {padding: 20px 0px 20px 0px;}*/
+	.grid figcaption h4 {font-size: 13px;}
+	.banner figcaption {height: 75px;}
+	.grid figcaption {padding: 10px;}
 }
