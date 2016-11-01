@@ -8,11 +8,18 @@ header {width: 100%;}
 body {
 	width: 100%;
     font-family: 'Trebuchet MS', Calibri, Arial, sans-serif;
-    color: #fff;
+    color: #7e7e7e;
     margin: 0;
     padding: 0;
-    /*position: relative;*/
+    position: relative;
+    background: rgba(126,126,126,0.1);
+    overflow-x: hidden;
 }
+
+/*.body-background {
+	background-image: url("../images/bg1.png");
+	opacity: 0.5;
+}*/
 
 footer {
     bottom: 0;
@@ -35,13 +42,13 @@ footer a:active, footer a:focus, footer a:visited, footer a:hover {
 }
 
 /* ИКОНКИ МЕНЮ */
-.fa{margin-right: 6px;}
+.fa {margin-right: 6px;}
 
 /* ПОЛОЖЕНИЕ Z ДЛЯ КНОПОК СЛАЙДЕРА */
 .carousel-indicators {z-index: 1;}
 
 /* ОТСТУП ОТ СЛАЙДЕРА */
-.margin-bottom {margin-bottom: 10px;}
+.margin-bottom {margin-bottom: 15px;}
 
 .footer-text, .footer-text-2 {
 	margin-top: 2%;
@@ -50,13 +57,14 @@ footer a:active, footer a:focus, footer a:visited, footer a:hover {
 
 /*КАРТИНКИ В FOOTER*/
 .lyceum-img, .wezom-img, .wezom-img-2 {
-	width: 101%;
+	width: 100%;
     height: auto;
 	/*opacity: 0.5;*/
 }
 
 .wezom-img-2 {display: none;}
 
+/*ПРЕДЗАГРУЗКА*/
 .loader {
 	background: none repeat scroll 0 0 #ffffff;
 	bottom: 0;
@@ -84,6 +92,59 @@ footer a:active, footer a:focus, footer a:visited, footer a:hover {
 }
 
 .hidden {display: none;}
+
+/*СТЕНА ПУБЛИКАЦИЙ (ГЛАВНАЯ)*/
+.wall .panel-body {padding: 0px 30px 15px 30px;}
+
+.wall p {
+	margin: 10px 0px;
+	color: #7e7e7e;}
+
+.wall a {
+	margin: 10px;
+	font-size: 18px;
+}
+
+.wall span {color: #7e7e7e;}
+
+.wall a:active, .wall a:focus, .wall a:visited, .wall a:focus, .wall a {color: #7e7e7e;}
+
+.wall a:hover, .wall a span:hover, .wall:hover > a {
+	color:#333333;
+	text-decoration: none;	
+}
+
+.wall .news-footer {border-top: 1px solid #ddd; padding-top: 10px;}
+
+.wall .news-img-show img {width: 100%;}
+
+.wall .news-img-list img {width: 30%;}
+
+/*ГАЛЕРЕЯ*/
+.gallery a {margin: 0;}
+
+.gallery h4 {margin-bottom: 0;}
+
+.gallery img {
+	border-radius: 5px;
+	width: 100%;}
+
+/* ЭФФЕКТ ДЛЯ ГАЛЕРЕИ*/
+.grow-rotate {
+    display: inline-block;
+    -webkit-transition-duration: 0.3s;
+            transition-duration: 0.3s;
+    -webkit-transition-property: transform;
+            transition-property: transform;
+    -webkit-transform: translateZ(0);
+            transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}
+
+.grow-rotate:hover,b .grow-rotate:focus, .grow-rotate:active {
+    -webkit-transform: scale(1.1) rotate(4deg);
+            transform: scale(1.1) rotate(4deg);
+}
 
 /****************** МЕДИА-ЗАПРОСЫ ******************/
 
@@ -159,7 +220,8 @@ footer a:active, footer a:focus, footer a:visited, footer a:hover {
 
 @media (max-width: 767px) {
 
-h1 {font-size: 30px;}
+h1 {font-size: 30px;
+	text-align: center;}
 
 /* СЛАЙДЕР НА МОБИЛЕ */
 .carousel-indicators li {
