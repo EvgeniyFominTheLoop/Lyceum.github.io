@@ -21,13 +21,13 @@ function toggleHandler(toggle) {
 
 })();
 
-$(document).ready(function(){ 
-var touch = $('.mobile-menu'); 
-var menu = $('.menu'); 
+$(document).ready(function(){
+var touch = $('.mobile-menu');
+var menu = $('.menu');
 
-$(touch).on('click', function(e) { 
-	e.preventDefault(); 
-	$(e.target).siblings('.menu').slideToggle(); 
+$(touch).on('click', function(e) {
+	e.preventDefault();
+	$(e.target).siblings('.menu').slideToggle();
 }); 
 
 $(window).resize(function(){ 
@@ -40,8 +40,7 @@ $(window).resize(function(){
 });
 
 $('#menu2').click(function(){
-    $('#menu2').removeClass('border-bottom')
-    $(this).addClass('border-bottom');
+    $('#menu2').toggleClass('border-bottom');
 });
 
 
