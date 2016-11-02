@@ -1,70 +1,45 @@
-.menu li a:active, .menu li a:focus, .menu li a:visited, a:focus {
-	outline: none;
-	text-decoration:none;
-	color: #fff;
-	background:#3E4156 !important;
-}
-
-.menu li a:hover, .menu li:hover > a {
-	color:#fff;
-	background:#9CA3DA !important;
-}
-
+/****************** МЕНЮ (БАЗОВЫЙ КЛАСС) ******************/
 *{ 
 	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
 	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
 	box-sizing: border-box;         /* Opera/IE 8+ */
 }
 
+.menu li a:active, .menu li a:focus, .menu li a:visited, .menu li a:focus {
+	outline: none;
+	text-decoration: none;
+	color: #fff;
+	background: #77CCDD !important;
+}
+
+
+.menu li a:hover, .menu li:hover > a {
+	color: #fff;
+	background: #66bbcc !important;
+}
+
 .menu{
-	display:block;
-	width:100%;
-	position:fixed;
-	z-index:92;
-	background:#3E4156;
-	text-align: center;
-	/*text-shadow: 0 0.5px 0px rgba(0,0,0,.4);*/
-}
-
-.menu-position {position:relative;}
-
-.menu2 p {
-	display: inline-block;
-	z-index:100;
-	float: none;
-	font-weight:900;
-	font-size: 16px;
-	padding:11px;
-	margin: 0;
-	background:#9CA3DA;
+	display: block;
 	width: 100%;
-/*	border: 2px solid #3E4156;
-	border-bottom:none;*/
+	position: fixed;
+	z-index: 92;
+	background: #77CCDD;
+	text-align: center;
 }
-
-/*.border {}*/
-
-/*.menu2-fixed{
-	position: fixed!important;
-	top: 44px;
-	width: 25%!important;
-}*/
 
 .menu li{
 	display: inline-block;
-	z-index:100;
+	z-index: 100;
 	float: none;
 }
 
-.menu li+li{margin-left: 0px !important;}
-
 .menu li a {
-	font-weight:600;
+	display: block;
+	font-weight: 600;
 	font-size: 16px;
-	text-decoration:none;
-	padding:11px;
-	display:block;
-	color:#fff;
+	text-decoration: none;
+	padding: 11px;
+	color: #fff;
 	border-radius: 0px;
 
 /* ПЛАВНОСТЬ ИЗМЕНЕНИЯ ЦВЕТА ПРИ НАВЕДЕНИИ */
@@ -75,79 +50,172 @@
    transition: all 0.2s ease-in-out 0s;
 }
 
-.mobile-menu{
-	display:none;
-	width:100%;
-	padding:11px;
-	background:#3E4156;
-	color:#fff;
-	text-transform:uppercase;
-	font-weight:600;
+/****************** МЕНЮ ВЕРТИКАЛЬНОЕ ******************/
+.menu2 li a:active, .menu2 li a:focus, .menu2 li a:visited, .menu2 li a:focus {
+	color: #7e7e7e;
+	background: #fff !important;
+	outline: none;
+	text-decoration: none;
 }
 
-.mobile-menu:hover{
-	background:#3E4156;
-	color:#fff;
-	text-decoration:none;
+.menu2 li a:hover, .menu2 li:hover > a {
+	color: #fff;
+	background: #77CCDD !important;
+}
+
+.menu2 li+li, .menu li+li {margin-left: 0px !important;}
+
+
+.menu2 {
+	color: #7e7e7e;
+	position: inherit;
+	background: #fff;
+}
+
+.menu2-heading {
+	border-bottom: 1px solid #e3e3e3;
+    text-align: center;
+}
+
+.panel-heading h3, .menu2 h3 {
+	padding: 20px 0px;
+	margin:0;}
+
+.menu2 li a {
+	display: block;
+	font-size: 18px;
+	text-decoration: none;
+	color: #7e7e7e;
+	border-radius: 0px;
+	padding: 11px !important;
+
+/* ПЛАВНОСТЬ ИЗМЕНЕНИЯ ЦВЕТА ПРИ НАВЕДЕНИИ */
+-webkit-transition: all 0.2s ease-in-out 0s;
+   -moz-transition: all 0.2s ease-in-out 0s;
+   -o-transition: all 0.2s ease-in-out 0s;
+   -ms-transition: all 0.2s ease-in-out 0s;
+   transition: all 0.2s ease-in-out 0s;
+}
+
+/****************** FOOTER В ВЕРТИКАЛЬНОМ МЕНЮ ******************/
+.menu2 .panel-footer {border-top: 0px;}
+
+.menu-icon-links {
+	display: inline-block;
+	width: 100%;
+	position: relative;
+}
+
+.menu2 .panel-footer h3 {
+	display: inline-block;
+	padding: 0px 10px 0px 0px;
+	margin: 0;
+}
+
+.tooltip-inner {font-family: 'Trebuchet MS', Calibri, Arial, sans-serif;}
+
+.menu2 .panel-footer a {color: #7e7e7e;}
+
+.menu2 .panel-footer a:hover {color: #333333;}
+
+.form-search {margin-top: 10px;}
+
+.menu2 .panel-footer .btn {
+	width: 6%;
+	padding: 0;
+	background: none;
+	vertical-align: top;
+}
+
+/****************** МОБИЛЬНОЕ МЕНЮ (БАЗОВЫЙ КЛАСС) ******************/
+.mobile-menu{
+	display: none;
+	width: 100%;
+	padding: 11px;
+	background: #77CCDD !important;
+	color: #fff !important;
+	font-weight: 600;
+	z-index: 103;
+}
+
+.mobile-menu:hover, .mobile-menu:focus{
+	background: #77CCDD;
+	color: #fff;
+	text-decoration: none;
 }
 
 /****************** МЕДИА-ЗАПРОСЫ ******************/
+@media (min-width: 1200px) {
+.menu li a{
+	font-size: 15px;
+	padding: 8px 5px 8px 5px;}
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+.menu li a{
+	font-size: 12px;
+	padding: 8px 5px 8px 5px;}
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+.menu li a{
+	font-size: 9px;
+	padding: 8px 4px 8px 4px;}
+}
 
 @media (min-width: 768px) {
 
 .menu2{
-	width:auto;
-	position:inherit;
-	z-index:10;
+	width: auto;
+	position: inherit;
+	z-index: 4;
 	text-align: left;}
 
 .menu2 li{
-	z-index:90;
-	width:100%;
+	z-index: 90;
+	width: 100%;
 	float: none;
-	border-top: 1px solid #797979}
+	border-bottom: 1px solid #e3e3e3;}
 }
-
-
 
 @media (min-width: 768px) and (max-width: 979px) {
-
-.menu ul {top:37px;}
-.menu li a{font-size:12px;padding:8px;}
+.menu ul {top: 37px;}
 }
-
-
 
 @media (max-width: 767px) {
 
-.menu2 p {display: none;}
+.menu2-heading {display: none;}
 
-.menu2{text-align: center;}
+.menu2{
+	text-align: center;
+	border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
 
 .menu {
-	display:none;
+	display: none;
 	position: relative;}
 
 .mobile-menu {display:block;}
 
 .menu li {
-	display:block;
-	margin:0;}
+	display: block;
+	margin: 0;}
 
 .menu li a {
-	background:#fff;
-	color:#797979;
-	border-top:1px solid #e0e0e0;
-	border-left:3px solid #fff;}
+	background: #fff;
+	color: #797979;
+	border-bottom: 1px solid #e3e3e3;}
 
 .menu li a:active, .menu li a:visited {
 	outline: none;
-	text-decoration:none;
+	text-decoration: none;
 	color: #797979;
-	background:#fff !important;}
+	background: #fff !important;}
 
 .menu li a:hover, .menu li:hover > a{
-	color:#797979;
-	background:#f0f0f0 !important;
-	border-left:3px solid #9CA3DA;}
+	color: #797979;
+	background: #f5f5f5 !important;}
+
+.menu-bottom {margin-bottom: 30px;}
 }

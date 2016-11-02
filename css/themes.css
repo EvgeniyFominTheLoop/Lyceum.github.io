@@ -1,0 +1,51 @@
+/*ТЕМЫ ОФОРМЛЕНИЯ САЙТА*/
+
+/*Backgrounds*/
+.bg1 {background: #70ca63;}
+.bg2 {background: #3498DB;}
+.bg3 {background: #485BBD;}
+.bg4 {background: #e7604a;}
+.bg5 {background: #333843;}
+.bg6 {background: #624e89;}
+.bg7 {background: #578ebe;}
+.bg8 {background: #384b5f;}
+.bg9 {background: #fff;}
+/*Backgrounds Close*/
+
+/*ТЕМА 1*/
+.thm9 .menu {background: #70ca63;}
+.thm9 {background: scroll url(/new-design/images/patterns/diamond-upholstery.png) rgba(126,126,126,0.1) top left repeat;}
+
+/*ТЕМА 2*/
+.thm9 .menu {background: #3498DB;}
+.thm9 {background: scroll url(/new-design/images/patterns/diamond-upholstery.png) rgba(126,126,126,0.1) top left repeat;}
+
+/*ТЕМА 3*/
+.thm9 .menu {background: #485BBD;}
+.thm9 {background: scroll url(/new-design/images/patterns/diamond-upholstery.png) rgba(126,126,126,0.1) top left repeat;}
+
+/*ТЕМА 4*/
+.thm9 .menu {background: #e7604a;}
+.thm9 {background: scroll url(/new-design/images/patterns/diamond-upholstery.png) rgba(126,126,126,0.1) top left repeat;}
+
+/*ТЕМА 5*/
+.thm9 .menu {background: #333843;}
+.thm9 {background: scroll url(/new-design/images/patterns/diamond-upholstery.png) rgba(126,126,126,0.1) top left repeat;}
+
+/*ТЕМА 6*/
+.thm9 .menu {background: #624e89;}
+.thm9 {background: scroll url(/new-design/images/patterns/diamond-upholstery.png) rgba(126,126,126,0.1) top left repeat;}
+
+/*ТЕМА 7*/
+.thm9 .menu {background: #578ebe;}
+.thm9 {background: scroll url(/new-design/images/patterns/diamond-upholstery.png) rgba(126,126,126,0.1) top left repeat;}
+
+/*ТЕМА 8*/
+.thm9 .menu {background: #384b5f;}
+.thm9 {background: scroll url(/new-design/images/patterns/diamond-upholstery.png) rgba(126,126,126,0.1) top left repeat;}
+
+/*ТЕМА 9*/
+.thm9 .menu li a {color: #7e7e7e;}
+.thm9 .menu li a:hover {color: #fff;}
+.thm9 .menu {background: #fff;}
+.thm9 {background: scroll url(/new-design/images/patterns/diamond-upholstery.png) rgba(126,126,126,0.1) top left repeat;}

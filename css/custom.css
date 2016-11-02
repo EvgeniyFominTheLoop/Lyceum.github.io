@@ -51,18 +51,15 @@ footer a:active, footer a:focus, footer a:visited, footer a:hover {
 .margin-bottom {margin-bottom: 15px;}
 
 .footer-text, .footer-text-2 {
-	margin-top: 2%;
-	font-size: 12px;
+	font-size: 11px;
 	white-space: nowrap;}
 
 /*КАРТИНКИ В FOOTER*/
-.lyceum-img, .wezom-img, .wezom-img-2 {
+.lyceum-img, .wezom-img {
 	width: 100%;
     height: auto;
 	/*opacity: 0.5;*/
 }
-
-.wezom-img-2 {display: none;}
 
 /*ПРЕДЗАГРУЗКА*/
 .loader {
@@ -114,7 +111,10 @@ footer a:active, footer a:focus, footer a:visited, footer a:hover {
 	text-decoration: none;	
 }
 
-.wall .news-footer {border-top: 1px solid #ddd; padding-top: 10px;}
+.wall .news-footer {
+	border-top: 1px solid #ddd;
+	padding-top: 10px;
+}
 
 .wall .news-img-show img {width: 100%;}
 
@@ -156,11 +156,18 @@ footer a:active, footer a:focus, footer a:visited, footer a:hover {
 
 .lyceum-img {margin-top: 15%;}
 
+.wezom-img {
+	width: auto;
+	height: 100px;
+	max-height: 100px;}
+
 .footer-text {font-size: 14px;}
 
 .footer-text-2 {
 	font-size: 14px;
-	margin-top: 7%;}
+	margin-top: 6%;
+	text-align: center;
+    padding-left: 20%;}
 
 /*ОБНУЛЕНИЕ КЛАССОВ ВО ИЗБЕЖАНИЕ ПОЛОМОК*/
 .col-xs-pull-9 {right: 0;}
@@ -180,9 +187,19 @@ footer a:active, footer a:focus, footer a:visited, footer a:hover {
 	padding-left: 0px;
 	padding-right: 1px;}
 
-.footer-text-2 {margin-top: 7%;}
+/*.footer-text {margin-top: 2%;}*/
 
-.lyceum-img {margin-top: 7%;}
+.footer-text-2 {
+	margin-top: 6%;
+	text-align: center;
+	padding-left: 28%;}
+
+.lyceum-img {margin-top: 10%;}
+
+.wezom-img {
+	width: auto;
+	height: 76px;
+	max-height: 76px;}
 
 /*ОБНУЛЕНИЕ КЛАССОВ ВО ИЗБЕЖАНИЕ ПОЛОМОК*/
 .col-xs-pull-9 {right: 0;}
@@ -194,18 +211,22 @@ footer a:active, footer a:focus, footer a:visited, footer a:hover {
 @media (min-width: 768px) and (max-width: 991px) {
 
 .footer-text {
-	font-size: 11px;
-	margin-top: 1%;}
+	font-size: 10px;
+	/*margin-top: 1%;*/}
 
 .footer-text-2 {
-	font-size: 11px;
-	margin-top: 8%;}
+	font-size: 10px;
+	margin-top: 8%;
+	text-align: center;
+	margin-left: -20%;}
 
 .lyceum-img {margin-top: 20%;}
 
-.wezom-img {display: none;}
-
-.wezom-img-2 {display: block;}
+.wezom-img {
+	width: auto;
+	height: 72px;
+	max-height: 72px;
+	margin-left: -7%;}
 
 .col-padding {
 	padding-left: 3px;
@@ -251,15 +272,11 @@ h1 {font-size: 30px;
 
 .lyceum-img {margin-top: 20%;}
 
-.wezom-img {display: none;}
-
-.wezom-img-2 {
+.wezom-img {
 	display: block;
 	margin-top: 5%;}
 
-.footer-text {margin-top: 1%;}
-
-.footer-text-2 {margin-top: 0;}
+.footer-text, .footer-text-2 {margin-top: 1%;}
 
 .text-center {text-align: left;}
 
@@ -278,7 +295,7 @@ footer {padding-bottom: 5px;}
 	max-height: 65px;
 	margin-top: 5%;}
 
-.wezom-img-2 {margin-top: 0;}
+.wezom-img {margin-top: 0;}
 
 .text-right {text-align: center;}
 
