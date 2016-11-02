@@ -16,15 +16,9 @@ body {
     overflow-x: hidden;
 }
 
-/*.body-background {
-	background-image: url("../images/bg1.png");
-	opacity: 0.5;
-}*/
-
 footer {
     bottom: 0;
     width: 100%;
-	margin-top: 20px;
 	background: #3E4156;
 	overflow: hidden;
 }
@@ -58,7 +52,6 @@ footer a:active, footer a:focus, footer a:visited, footer a:hover {
 .lyceum-img, .wezom-img {
 	width: 100%;
     height: auto;
-	/*opacity: 0.5;*/
 }
 
 /*ПРЕДЗАГРУЗКА*/
@@ -92,6 +85,11 @@ footer a:active, footer a:focus, footer a:visited, footer a:hover {
 
 /*СТЕНА ПУБЛИКАЦИЙ (ГЛАВНАЯ)*/
 .wall .panel-body {padding: 0px 30px 15px 30px;}
+
+.wall h1 {
+	margin: 0;
+	padding: 13px 0px;
+}
 
 .wall p {
 	margin: 10px 0px;
@@ -258,9 +256,6 @@ h1 {font-size: 30px;
 .carousel-caption {
 	right: 4%;
 	left: 4%;}
-
-/* ОБНУЛЕНИЕ ПОЛЕЙ ВОКРУГ ВЕРТИКАЛЬНОГО МОБИЛЬНОГО МЕНЮ */
-/*.reset-padding {padding: 0;}*/
 
 /* ПОЛЯ ВНУТРИ КОЛОНОК В FOOTER */
 .col-padding {

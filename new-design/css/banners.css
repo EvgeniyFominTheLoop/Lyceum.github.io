@@ -1,25 +1,19 @@
 .grid {
-	margin: 0 auto;
-	padding: 0;
+	margin-top:30px;
 	list-style: none;
 	text-align: center;
-}
-
-.grid li {
-	display: inline-block;
-	width: 320px;
-	margin: 0;
-	padding: 20px;
-	position: relative;
+	background-color: #fff;
 }
 
 .grid figure {
-	margin: 0;
+	margin-bottom: 30px;
 	position: relative;
+	overflow: hidden;
+	border-radius: 4px;
 }
 
 .grid figure img {
-	max-width: 100%;
+	width: 100%;
 	display: block;
 	position: relative;
 }
@@ -46,25 +40,21 @@
 	text-decoration: none;
 }
 
-.banner figure {
-	overflow: hidden;
-}
-
-.banner figure img {
+.grid figure img {
 	-webkit-transition: -webkit-transform 0.4s;
 	-moz-transition: -moz-transform 0.4s;
 	transition: transform 0.4s;
 }
 
-.no-touch .banner figure:hover img,
-.banner figure.cs-hover img {
+.no-touch .grid figure:hover img,
+.grid figure.cs-hover img {
 	-webkit-transform: translateY(-50px);
 	-moz-transform: translateY(-50px);
 	-ms-transform: translateY(-50px);
 	transform: translateY(-50px);
 }
 
-.banner figcaption {
+.grid figcaption {
 	height: 100px;
 	width: 100%;
 	top: auto;
@@ -79,8 +69,8 @@
 	transition: transform 0.4s, opacity 0.1s 0.3s;
 }
 
-.no-touch .banner figure:hover figcaption,
-.banner figure.cs-hover figcaption {
+.no-touch .grid figure:hover figcaption,
+.grid figure.cs-hover figcaption {
 	opacity: 1;
 	-webkit-transform: translateY(0px);
 	-moz-transform: translateY(0px);
@@ -91,25 +81,15 @@
 	transition: transform 0.4s, opacity 0.1s;
 }
 
-/*@media screen and (max-width: 31.5em) {
-	.grid {padding: 20px 0px 20px 0px;}
-	.grid li {
-		width: 100%;
-		min-width: 300px;}
-}*/
-
-@media (min-width: 1200px) {
-	.grid li {width: 290px;}
-}
-
-@media (min-width: 768px) {
-	.grid li {padding: 10px;}
-}
-
 @media (max-width: 767px) {
-	.grid li {width: 49%;padding: 10px;}
-/*	.grid {padding: 20px 0px 20px 0px;}*/
-	.grid figcaption h4 {font-size: 13px;}
-	.banner figcaption {height: 77px;}
-	.grid figcaption {padding: 10px;}
+.grid figcaption h4 {font-size: 11px;}
+
+.grid figcaption {
+	height: 70px;
+	padding: 10px;}
+}
+
+/* ПРОМЕЖУТОЧНЫЙ (ДЛЯ ГОРИЗОНТАЛЬНОГО ПОЛОЖЕНИЯ) */
+@media (min-width: 450px) and (max-width: 767px) {
+	
 }
