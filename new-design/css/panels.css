@@ -16,6 +16,8 @@
 	text-decoration: none;	
 }
 
+.panel {border:0;}
+
 .panel-heading {padding: 0;}
 
 .panel-body {padding: 15px 15px 0px 15px;}
@@ -92,7 +94,7 @@
 	width: 90%;
 	border:1px solid #e3e3e3;
 	border-radius: 3px;
-	padding: 0px 3px 0px 3px;
+/*	padding: 0px 3px 0px 3px;*/
 }
 
 .message textarea, .message input {
@@ -170,9 +172,9 @@ textarea:focus, textarea:hover, input:focus, input:hover {
 
 @media (max-width: 767px) {
 
-.mobile-padding {
+/*.mobile-padding {
 	padding-right: 15px;
-    padding-left: 15px;}
+    padding-left: 15px;}*/
 
 #feedback .panel {
 	width: 100%;

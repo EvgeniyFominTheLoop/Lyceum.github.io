@@ -39,6 +39,11 @@ menu.removeAttr('style');
 
 });
 
+$('.mobile-menu').click(function(){
+    $('.mobile-menu').removeClass('border-bottom')
+    $(this).addClass('border-bottom');
+});
+
 
 
 // $('.menu2').affix()

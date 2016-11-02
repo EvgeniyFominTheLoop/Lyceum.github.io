@@ -260,7 +260,7 @@ h1 {font-size: 30px;
 	left: 4%;}
 
 /* ОБНУЛЕНИЕ ПОЛЕЙ ВОКРУГ ВЕРТИКАЛЬНОГО МОБИЛЬНОГО МЕНЮ */
-.reset-padding {padding: 0;}
+/*.reset-padding {padding: 0;}*/
 
 /* ПОЛЯ ВНУТРИ КОЛОНОК В FOOTER */
 .col-padding {

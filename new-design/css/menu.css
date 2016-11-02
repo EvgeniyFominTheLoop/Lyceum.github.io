@@ -128,7 +128,7 @@
 }
 
 /****************** МОБИЛЬНОЕ МЕНЮ (БАЗОВЫЙ КЛАСС) ******************/
-.mobile-menu{
+.mobile-menu {
 	display: none;
 	width: 100%;
 	padding: 11px;
@@ -138,11 +138,15 @@
 	z-index: 103;
 }
 
-.mobile-menu:hover, .mobile-menu:focus{
+.mobile-menu:hover, .mobile-menu:focus {
 	background: #77CCDD;
 	color: #fff;
 	text-decoration: none;
 }
+
+.side-container .mobile-menu {border-radius: 3px;}
+
+.border-bottom {border-radius: 3px 3px 0px 0px !important;}
 
 /****************** МЕДИА-ЗАПРОСЫ ******************/
 @media (min-width: 1200px) {
