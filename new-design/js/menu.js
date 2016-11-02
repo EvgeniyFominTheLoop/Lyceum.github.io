@@ -39,10 +39,12 @@ menu.removeAttr('style');
 
 });
 
-$('.mobile-menu').click(function(){
-    $('.mobile-menu').removeClass('border-bottom')
+$('#menu2').click(function(){
+    $('#menu2').removeClass('border-bottom')
     $(this).addClass('border-bottom');
 });
+
+
 
 
 
