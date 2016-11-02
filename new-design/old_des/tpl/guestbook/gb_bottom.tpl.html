@@ -1,0 +1,29 @@
+<!-- постраничка -->
+%pager_J%
+<!-- постраничка -->
+<div class="message">
+	<div class="heading">
+		<h2>Залишити повідомлення:</h2>
+	</div>
+	<form name='gb' method='post' action='/guestbook' class="validat form_style">
+		<div class="row">
+			<input required name="name" maxlength="35" type="text" class="valid" value="%name%" placeholder="Ваше ім'я" />
+		</div>
+		<div class="row">
+			<input required name="city" maxlength="35" type="text" class="valid" value="%city%" placeholder="Ваше місто" />
+		</div>
+		<div class="row">
+			<input required name="email" minlength="2" class="valid email" value="%email%" placeholder="Ваш e-mail" />
+		</div>    
+		<div class="row">
+			<textarea required name="comments" class="valid" placeholder="Текст повідомлення" >%comments%</textarea>
+		</div>
+		<div class="row captcha">
+			%imggg%
+		</div>
+		<div class="row">
+			<input class="sbm-btn" type="submit" value="Надіслати" class="but">
+		</div>	 
+		<input type="hidden" name="write" value="yes">
+	</form>
+</div>
