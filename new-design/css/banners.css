@@ -20,9 +20,11 @@
 
 .grid figcaption {
 	position: absolute;
-	top: 0;
+	top: auto;
 	left: 0;
-	padding: 20px;
+	width: 100%;
+	bottom: 0;
+	opacity: 0;
 	background: #7e7e7e; /* ЦВЕТ ФОНА ОПИСАНИЯ (#77CCDD - на всякий, как меню) */
 	color: #fff;
 	text-align: center;
@@ -48,18 +50,12 @@
 
 .no-touch .grid figure:hover img,
 .grid figure.cs-hover img {
-	-webkit-transform: translateY(-50px);
-	-moz-transform: translateY(-50px);
-	-ms-transform: translateY(-50px);
-	transform: translateY(-50px);
-}
+	-webkit-transform: translateY(-28px);
+	-moz-transform: translateY(-28px);
+	-ms-transform: translateY(-28px);
+	transform: translateY(-28px);}
 
 .grid figcaption {
-	height: 100px;
-	width: 100%;
-	top: auto;
-	bottom: 0;
-	opacity: 0;
 	-webkit-transform: translateY(100%);
 	-moz-transform: translateY(100%);
 	-ms-transform: translateY(100%);
@@ -82,12 +78,26 @@
 }
 
 
+@media (min-width: 320px) {
+.grid figcaption {padding: 3px;}
+.grid figcaption {height: 56px;}
+.grid figcaption h4 {font-size: 11px;}
+}
 
+@media (min-width: 480px){
+.grid figcaption {padding: 5px;}
+.grid figcaption {height: 60px;}
+.grid figcaption h4 {font-size: 15px;}
+}
 
-@media (min-width: 992px) and (max-width: 1199px) {
+@media (min-width: 768px) and (max-width: 959px) {
+.grid figcaption {padding: 10px 5px;}
+.grid figcaption h4 {font-size: 12px;}
+}
+
+@media (min-width: 1200px){
+.grid figcaption h4 {font-size: 20px;}
 .grid figcaption {height: 80px;}
-
-.grid figcaption h4 {font-size: 16px;}
 
 .no-touch .grid figure:hover img,
 .grid figure.cs-hover img {
@@ -95,48 +105,4 @@
 	-moz-transform: translateY(-40px);
 	-ms-transform: translateY(-40px);
 	transform: translateY(-40px);}
-}
-
-@media (max-width: 1199px) {
-.grid figcaption {padding: 10px;}
-}
-
-@media (min-width: 768px) and (max-width: 991px) {
-.grid figcaption {height: 60px;}
-
-.grid figcaption h4 {font-size: 11px;}
-
-.no-touch .grid figure:hover img,
-.grid figure.cs-hover img {
-	-webkit-transform: translateY(-30px);
-	-moz-transform: translateY(-30px);
-	-ms-transform: translateY(-30px);
-	transform: translateY(-30px);}
-}
-
-
-
-
-@media (max-width: 767px) {
-.grid figcaption {height: 70px;}
-}
-
-@media (min-width: 498px) and (max-width: 767px) {
-.grid figcaption h4 {font-size: 16px;}
-}
-
-@media (min-width: 452px) and (max-width: 497px) {
-.grid figcaption h4 {font-size: 14px;}
-}
-
-@media (min-width: 418px) and (max-width: 451px) {
-.grid figcaption h4 {font-size: 13px;}
-}
-
-@media (min-width: 370px) and (max-width: 417px) {
-.grid figcaption h4 {font-size: 12px;}
-}
-
-@media (min-width: 320px) and (max-width: 369px) {
-.grid figcaption h4 {font-size: 11px;}
 }
