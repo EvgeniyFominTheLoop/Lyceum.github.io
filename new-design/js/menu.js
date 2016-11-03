@@ -43,6 +43,10 @@ $('#menu2').click(function(){
     $('#menu2').toggleClass('border-bottom');
 });
 
+$('#media').click(function(){
+    $('#media1').toggleClass('hide');
+    $('#media2').toggleClass('hide');
+});
 
 
 

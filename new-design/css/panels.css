@@ -189,6 +189,8 @@ textarea:focus, textarea:hover, input:focus, input:hover {
 
 @media (max-width: 767px) {
 
+.hide {display: none;}
+
 #feedback .panel {
 	width: 100%;
 	height:100vh;
