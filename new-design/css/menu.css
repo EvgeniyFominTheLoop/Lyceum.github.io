@@ -9,7 +9,7 @@
 	outline: none;
 	text-decoration: none;
 	color: #fff;
-	background: #77CCDD;
+	background: none;
 }
 
 
@@ -53,7 +53,7 @@
 /****************** МЕНЮ ВЕРТИКАЛЬНОЕ ******************/
 .menu2 li a:active, .menu2 li a:focus, .menu2 li a:visited, .menu2 li a:focus {
 	color: #7e7e7e !important;
-	/*background: #fff;*/
+	background: #fff;
 	outline: none;
 	text-decoration: none;
 }
@@ -127,7 +127,7 @@
 	display: none;
 	width: 100%;
 	padding: 16px;
-	background: #77CCDD !important;
+	background: #77CCDD;
 	color: #fff !important;
 	/*font-weight: 600;*/
 	z-index: 103;
