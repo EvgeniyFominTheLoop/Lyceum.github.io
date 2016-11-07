@@ -173,6 +173,8 @@ textarea:focus, textarea:hover, input:focus, input:hover {
 
 .news-hack {display: none;}
 
+#news-hack {display: block;}
+
 @media (min-width: 1200px) {
 	.banners h3 {font-size: 22px;}
 	.mishukov h3 {font-size: 19px;}
@@ -213,4 +215,6 @@ textarea:focus, textarea:hover, input:focus, input:hover {
 .news-hack {display: block;}
 
 #news-hack {display: none;}
+
+#mishukov h3 {font-size: 23px;}
 }

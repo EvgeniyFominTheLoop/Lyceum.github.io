@@ -56,14 +56,8 @@ $("#mishukov").click(function () {
 
 $(window).resize(function(){ 
 	var w = $(window).width(); 
-	if(w > 767 && menu.is(':hidden') && media.is(':hidden') && info.is(':hidden') && news.is(':hidden') && mishukov.is(':hidden')) { 
-		menu.removeAttr('style'); 
-		media.removeAttr('style');
-		info.removeAttr('style');
-		media.removeAttr('style');
-		info.removeAttr('style');
-		news.removeAttr('style');
-		mishukov.removeAttr('style');
+	if(w > 767 && menu.is(':hidden')) { 
+		menu.removeAttr('style');
 
 } 
 });

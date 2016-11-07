@@ -52,15 +52,10 @@
 
 /****************** МЕНЮ ВЕРТИКАЛЬНОЕ ******************/
 .menu2 li a:active, .menu2 li a:focus, .menu2 li a:visited, .menu2 li a:focus {
-	color: #7e7e7e;
+	color: #7e7e7e !important;
 	background: #fff !important;
 	outline: none;
 	text-decoration: none;
-}
-
-.menu2 li a:hover, .menu2 li:hover > a {
-	color: #fff;
-	background: #77CCDD !important;
 }
 
 .menu2 li+li, .menu li+li {margin-left: 0px !important;}
@@ -171,6 +166,7 @@
 @media (min-width: 768px) {
 
 .menu2{
+	display: block !important;
 	width: auto;
 	position: inherit;
 	z-index: 4;
@@ -181,6 +177,11 @@
 	width: 100%;
 	float: none;
 	border-bottom: 1px solid #e3e3e3;}
+
+
+.menu2 li a:hover, .menu2 li:hover > a {
+	color: #fff !important;
+	background: #77CCDD !important;}
 }
 
 @media (min-width: 768px) and (max-width: 979px) {
