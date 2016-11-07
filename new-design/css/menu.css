@@ -131,11 +131,12 @@
 .mobile-menu {
 	display: none;
 	width: 100%;
-	padding: 11px;
+	padding: 16px;
 	background: #77CCDD !important;
 	color: #fff !important;
-	font-weight: 600;
+	/*font-weight: 600;*/
 	z-index: 103;
+	font-size: 24px;
 }
 
 .mobile-menu:hover, .mobile-menu:focus {
