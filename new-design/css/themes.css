@@ -46,6 +46,6 @@
 
 /*ТЕМА 9*/
 .thm9 .menu li a {color: #7e7e7e;}
-.thm9 .menu li a:hover {color: #fff;}
+/*.thm9 .menu li a:hover {color: #fff;}*/
 .thm9 .menu {background: #fff;}
 .thm9 {background: scroll url(/new-design/images/patterns/diamond-upholstery.png) rgba(126,126,126,0.1) top left repeat;}

@@ -146,7 +146,7 @@
 
 .side-container .mobile-menu {border-radius: 3px;}
 
-.border-bottom {border-radius: 3px 3px 0px 0px !important;}
+.border-radius {border-radius: 3px 3px 0px 0px !important;}
 
 /****************** МЕДИА-ЗАПРОСЫ ******************/
 @media (min-width: 1200px) {

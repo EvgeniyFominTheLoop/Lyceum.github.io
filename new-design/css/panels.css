@@ -169,6 +169,7 @@ textarea:focus, textarea:hover, input:focus, input:hover {
 
 .comment-answer p span {color: #7e7e7e !important;}
 
+.border-bottom {border-bottom: 1px solid #e3e3e3 !important;}
 
 
 @media (min-width: 1200px) {
@@ -202,5 +203,9 @@ textarea:focus, textarea:hover, input:focus, input:hover {
 }
 
 @media (min-width: 320px) and (max-width: 767px) {
-	.message img {width: 100%;}
+.message img {width: 100%;}
+
+#media.panel-heading, #info.panel-heading, #news.panel-heading, #mishukov.panel-heading {border-bottom: 0;}
+
+#media1, #info1, #news1, #mishukov1 {display: none;}
 }

@@ -225,34 +225,38 @@
 							<div id="media" class="panel-heading">
 								<h3>Медіатека <i class="fa fa-video-camera"></i></h3>
 							</div>
-							<div id="media1" class="panel-body padding-media hide">
-								<div class="videoWrapper">
-									<!-- ДЛЯ ВСТАВКИ ВИДЕО ЗАМЕНИТЬ СТРОКУ НИЖЕ -->
-									<iframe width="500" height="300" src="https://www.youtube.com/embed/tYzKM1-O23g" frameborder="0" allowfullscreen=""></iframe>
+							<div id="media1">
+								<div class="panel-body padding-media">
+									<div class="videoWrapper">
+										<!-- ДЛЯ ВСТАВКИ ВИДЕО ЗАМЕНИТЬ СТРОКУ НИЖЕ -->
+										<iframe width="500" height="300" src="https://www.youtube.com/embed/tYzKM1-O23g" frameborder="0" allowfullscreen=""></iframe>
+									</div>
 								</div>
-							</div>
-							<div id="media2" class="panel-footer hide">
-								<h4><a href="/mediateka">Більше відео <i class="fa fa-arrow-circle-right"></i></a></h4 class="text-center">
+								<div class="panel-footer">
+									<h4><a href="/mediateka">Більше відео <i class="fa fa-arrow-circle-right"></i></a></h4 class="text-center">
+								</div>
 							</div>
 						</div>
 					<!-- МЕДИАТЕКА КОНЕЦ -->
 					<!-- ССЫЛКИ -->
 						<div class="panel banners">
-							<div class="panel-heading">
+							<div id="info" class="panel-heading">
 								<h3>Корисна інформація <i class="fa fa-bell"></i></h3>
 							</div>
-							<div class="panel-body links">
-								<div class="news-box">
-									<a href="http://metodistkherson.ucoz.ua/" target="_blank"><img src="/new-design/images/metod.jpg"></a>
-									<h4><a href="http://metodistkherson.ucoz.ua/" target="_blank">Методичний кабінет</a></h4>
+							<div id="info1">
+								<div class="panel-body links">
+									<div class="news-box">
+										<a href="http://metodistkherson.ucoz.ua/" target="_blank"><img src="/new-design/images/metod.jpg"></a>
+										<h4><a href="http://metodistkherson.ucoz.ua/" target="_blank">Методичний кабінет</a></h4>
+									</div>
+									<div class="news-box">
+										<a href="http://www.gorono.ftl.kherson.ua/" target="_blank"><img src="/images/gorono.png"></a>
+									</div>
 								</div>
-								<div class="news-box">
-									<a href="http://www.gorono.ftl.kherson.ua/" target="_blank"><img src="/images/gorono.png"></a>
+								<!-- FOOTER (ОПЦИОНАЛЬНО) -->
+								<div class="panel-footer">
+									<h4><a href="#">Більше інформації <i class="fa fa-arrow-circle-right"></i></a></h4 class="text-center">
 								</div>
-							</div>
-							<!-- FOOTER (ОПЦИОНАЛЬНО) -->
-							<div class="panel-footer">
-								<h4><a href="#">Більше інформації <i class="fa fa-arrow-circle-right"></i></a></h4 class="text-center">
 							</div>
 						</div>
 					<!-- ССЫЛКИ КОНЕЦ -->
@@ -262,30 +266,34 @@
 					<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 col-md-push-6 col-lg-push-6 side-container">
 						<!-- ПОСЛЕДНИЕ НОВОСТИ -->
 						<div class="panel last-news">
-							<div class="panel-heading">
+							<div id="news" class="panel-heading">
 								<h3>Новини та події <i class="fa fa-bullhorn"></i></h3>
 							</div>
-							<div class="panel-body">
-								<?php echo news::show_news($statik['news_at_first'],"/frontend/news/first_page.php"); ?>
+							<div id="news1">
+								<div class="panel-body">
+									<?php echo news::show_news($statik['news_at_first'],"/frontend/news/first_page.php"); ?>
+								</div>
+								<div class="panel-footer">
+									<h4><a href="/news">Всі новини <i class="fa fa-arrow-circle-right"></i></a></h4 class="text-center">
 							</div>
-							<div class="panel-footer">
-								<h4><a href="/news">Всі новини <i class="fa fa-arrow-circle-right"></i></a></h4 class="text-center">
 							</div>
 						</div>
 						<!-- ПОСЛЕДНИЕ НОВОСТИ КОНЕЦ-->
 						<!-- ПАМЯТИ МИШУКОВА -->
 						<div class="panel mishukov">
-							<div class="panel-heading">
+							<div id="mishukov" class="panel-heading">
 								<h3>Пам'яті Олега Мішукова <i class="fa fa-fire"></i></h3>
 							</div>
-							<div class="panel-body">
-								<div class="news-box">
-									<img src="/pic/mishukov.jpg">
-									<p>Педагогічний колектив Херсонського Академічного ліцею при ХДУ очолював директор, доктор філологічних наук, заслужений діяч мистецтв України, професор Олег Мішуков.</p>
+							<div id="mishukov1">
+								<div class="panel-body">
+									<div class="news-box">
+										<img src="/pic/mishukov.jpg">
+										<p>Педагогічний колектив Херсонського Академічного ліцею при ХДУ очолював директор, доктор філологічних наук, заслужений діяч мистецтв України, професор Олег Мішуков.</p>
+									</div>
 								</div>
-							</div>
-							<div class="panel-footer">
-								<h4><a href="/pamjati_olega_mishukova">Детальніше <i class="fa fa-arrow-circle-right"></i></a></h4 class="text-center">
+								<div class="panel-footer">
+									<h4><a href="/pamjati_olega_mishukova">Детальніше <i class="fa fa-arrow-circle-right"></i></a></h4 class="text-center">
+								</div>
 							</div>
 						</div>
 						<!-- ПАМЯТИ МИШУКОВА КОНЕЦ -->
