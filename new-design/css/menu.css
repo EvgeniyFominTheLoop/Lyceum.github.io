@@ -9,20 +9,20 @@
 	outline: none;
 	text-decoration: none;
 	color: #fff;
-	background: #77CCDD !important;
+	background: #77CCDD;
 }
 
 
 .menu li a:hover, .menu li:hover > a {
 	color: #fff;
-	background: #66bbcc !important;
+	background: #66bbcc;
 }
 
 .menu{
 	display: block;
 	width: 100%;
 	position: fixed;
-	z-index: 92;
+	z-index: 120;
 	background: #77CCDD;
 	text-align: center;
 }
@@ -53,7 +53,7 @@
 /****************** МЕНЮ ВЕРТИКАЛЬНОЕ ******************/
 .menu2 li a:active, .menu2 li a:focus, .menu2 li a:visited, .menu2 li a:focus {
 	color: #7e7e7e !important;
-	background: #fff !important;
+	/*background: #fff;*/
 	outline: none;
 	text-decoration: none;
 }
@@ -170,7 +170,8 @@
 	width: auto;
 	position: inherit;
 	z-index: 4;
-	text-align: left;}
+	text-align: left;
+	background: #fff !important;}
 
 .menu2 li{
 	z-index: 90;
@@ -181,7 +182,7 @@
 
 .menu2 li a:hover, .menu2 li:hover > a {
 	color: #fff !important;
-	background: #77CCDD !important;}
+	background: #77CCDD;}
 }
 
 @media (min-width: 768px) and (max-width: 979px) {

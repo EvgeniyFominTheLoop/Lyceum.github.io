@@ -13,39 +13,39 @@
 /*Backgrounds Close*/
 
 /*ТЕМА 1*/
-.thm9 .menu {background: #70ca63;}
-.thm9 {background: scroll url(/new-design/images/patterns/diamond-upholstery.png) rgba(126,126,126,0.1) top left repeat;}
+.menu2 li a:hover, .menu2 li:hover > a, .thm1 .grid figcaption, .thm1 .menu {background: #70ca63;}
+.thm1 {background: scroll url(/new-design/images/patterns/diamond-upholstery.png) rgba(126,126,126,0.1) top left repeat;}
+
 
 /*ТЕМА 2*/
-.thm9 .menu {background: #3498DB;}
-.thm9 {background: scroll url(/new-design/images/patterns/diamond-upholstery.png) rgba(126,126,126,0.1) top left repeat;}
+.menu2 li a:hover, .menu2 li:hover > a, .thm2 .grid figcaption, .thm2 .menu {background: #3498DB;}
+.thm2 {background: scroll url(/new-design/images/patterns/diamond-upholstery.png) rgba(126,126,126,0.1) top left repeat;}
 
 /*ТЕМА 3*/
-.thm9 .menu {background: #485BBD;}
-.thm9 {background: scroll url(/new-design/images/patterns/diamond-upholstery.png) rgba(126,126,126,0.1) top left repeat;}
+.menu2 li a:hover, .menu2 li:hover > a, .thm3 .grid figcaption, .thm3 .menu {background: #485BBD;}
+.thm3 {background: scroll url(/new-design/images/patterns/diamond-upholstery.png) rgba(126,126,126,0.1) top left repeat;}
 
 /*ТЕМА 4*/
-.thm9 .menu {background: #e7604a;}
-.thm9 {background: scroll url(/new-design/images/patterns/diamond-upholstery.png) rgba(126,126,126,0.1) top left repeat;}
+.menu2 li a:hover, .menu2 li:hover > a, .thm4 .grid figcaption, .thm4 .menu {background: #e7604a;}
+.thm4 {background: scroll url(/new-design/images/patterns/diamond-upholstery.png) rgba(126,126,126,0.1) top left repeat;}
 
 /*ТЕМА 5*/
-.thm9 .menu {background: #333843;}
-.thm9 {background: scroll url(/new-design/images/patterns/diamond-upholstery.png) rgba(126,126,126,0.1) top left repeat;}
+.menu2 li a:hover, .menu2 li:hover > a, .thm5 .grid figcaption, .thm5 .menu {background: #333843;}
+.thm5 {background: scroll url(/new-design/images/patterns/diamond-upholstery.png) rgba(126,126,126,0.1) top left repeat;}
 
 /*ТЕМА 6*/
-.thm9 .menu {background: #624e89;}
-.thm9 {background: scroll url(/new-design/images/patterns/diamond-upholstery.png) rgba(126,126,126,0.1) top left repeat;}
+.menu2 li a:hover, .menu2 li:hover > a, .thm6 .grid figcaption, .thm6 .menu {background: #624e89;}
+.thm6 {background: scroll url(/new-design/images/patterns/diamond-upholstery.png) rgba(126,126,126,0.1) top left repeat;}
 
 /*ТЕМА 7*/
-.thm9 .menu {background: #578ebe;}
-.thm9 {background: scroll url(/new-design/images/patterns/diamond-upholstery.png) rgba(126,126,126,0.1) top left repeat;}
+.menu2 li a:hover, .menu2 li:hover > a, .thm7 .grid figcaption, .thm7 .menu {background: #578ebe;}
+.thm7 {background: scroll url(/new-design/images/patterns/diamond-upholstery.png) rgba(126,126,126,0.1) top left repeat;}
 
 /*ТЕМА 8*/
-.thm9 .menu {background: #384b5f;}
-.thm9 {background: scroll url(/new-design/images/patterns/diamond-upholstery.png) rgba(126,126,126,0.1) top left repeat;}
+.menu2 li a:hover, .menu2 li:hover > a, .thm8 .grid figcaption, .thm8 .menu {background: #384b5f;}
+.thm8 {background: scroll url(/new-design/images/patterns/diamond-upholstery.png) rgba(126,126,126,0.1) top left repeat;}
 
 /*ТЕМА 9*/
 .thm9 .menu li a {color: #7e7e7e;}
-/*.thm9 .menu li a:hover {color: #fff;}*/
-.thm9 .menu {background: #fff;}
+.menu2 li a:hover, .menu2 li:hover > a, .thm9 .grid figcaption, .thm9 .menu {background: #fff;}
 .thm9 {background: scroll url(/new-design/images/patterns/diamond-upholstery.png) rgba(126,126,126,0.1) top left repeat;}

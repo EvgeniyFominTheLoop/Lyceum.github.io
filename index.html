@@ -192,25 +192,24 @@
 					<!-- ЛЕВЫЙ СЕКТОР -->
 					<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 side-container">
 						<!-- МЕНЮ МОБИЛЬНОЕ -->
-<!-- 				        <h3> -->
-					        <a id="menu2" class="mobile-menu" href="#">
-						        <button class="c-hamburger c-hamburger--htx">
-						        	<span></span>
-						        </button>
-					        	Головне меню
-					        </a>
-<!-- 				        </h3> -->
+						<a id="menu2" class="mobile-menu" href="#">
+							<button class="c-hamburger c-hamburger--htx">
+								<span></span>
+							</button>
+							Головне меню
+						</a>
 			    		<!-- МЕНЮ ВЕРТИКАЛЬНОЕ (ЛЕВОЕ) -->
 				    	<ul class="nav nav-pills panel menu menu2">
 					    	<div class="menu2-heading">
 					    		<h3 class="text-center">Головне меню <i class="fa fa-graduation-cap"></i></h3>
 					    	</div>
 							<?php echo general::get_punkt_menu("/frontend/menu/first_page.php"); ?>
-							<div class="panel-footer">
+							<div class="panel-footer text-center">
 								<!-- ИКОНКИ-ССЫЛКИ -->
+								<h3><a target="_blank" href="https://goo.gl/maps/B2Z5voapDe12" data-toggle="tooltip" title="Адреса на Google Maps"><i class="fa fa-home"></i></a></h3>
 								<h3><a target="_blank" href="mailto:academlyceum@ukr.net" data-toggle="tooltip" title="Відправити листа"><i class="fa fa-envelope"></i></a></h3>
 								<h3><a data-toggle="tooltip" title="+38 (0552) 32 16 34"><i class="fa fa-phone-square"></i></a></h3>
-								<h3><a target="_blank" href="https://goo.gl/maps/B2Z5voapDe12" data-toggle="tooltip" title="Адреса на Google Maps"><i class="fa fa-home"></i></a></h3>
+								<h3><a target="_blank" href="https://goo.gl/odNrx8" data-toggle="tooltip" title="Наш канал YouTube"><i class="fa fa-youtube-play"></i></a></h3>
 								<h3><a target="_blank" href="<?= $statik['vk_com'] ?>" data-toggle="tooltip" title="Ми Вконтакті"><i class="fa fa-vk"></i></a></h3>
 								<!-- ИКОНКИ-ССЫЛКИ КОНЕЦ -->
 								<!--  ФОРМА ПОИСКА -->
@@ -334,8 +333,38 @@
 			</div>
 		</section>
     	<!-- КОНТЕНТ КОНЕЦ -->
-    	<!-- ПАНЕЛЬ СТИЛЕЙ -->
-
+		<!-- ПАНЕЛЬ СТИЛЕЙ -->
+    	<div id="styleSelector">
+			<div class="selector-toggle">
+			    <a href="javascript:void(0)"></a>
+			</div>
+			<ul>
+			    <li>
+			        <h3 class="selector-title">Вибір стилю</h3>
+			    </li>
+			    <li class="theme-option">
+			        <span class="sub-title">Горизонтальне меню</span>
+			        <div id="theme-color">
+			            <a href="#" class="bg1" data-style-class="thm1">&nbsp;</a>
+			            <a href="#" class="bg2" data-style-class="thm2">&nbsp;</a>
+			            <a href="#" class="bg3" data-style-class="thm3">&nbsp;</a>
+			            <a href="#" class="bg4" data-style-class="thm4">&nbsp;</a>
+			            <a href="#" class="bg5" data-style-class="thm5">&nbsp;</a>
+			            <a href="#" class="bg6" data-style-class="thm6">&nbsp;</a>
+			            <a href="#" class="bg7" data-style-class="thm7">&nbsp;</a>
+			            <a href="#" class="bg8" data-style-class="thm8">&nbsp;</a>
+			            <a href="#" class="bg9" data-style-class="thm9">&nbsp;</a>
+			        </div>
+			    </li>
+			    <!-- <li class="theme-option">
+			        <span class="sub-title">Theme Layout</span>
+			        <select id="theme-layout" class="form-control minimal input-sm">
+			            <option name="theme-layout" value="wide-layout">Wide Layout</option>
+			            <option name="theme-layout" value="box-layout">Boxed Layout</option> 
+			        </select>
+			    </li> -->
+			</ul>
+		</div>
 		<!-- ПАНЕЛЬ СТИЛЕЙ КОНЕЦ -->
 		<!-- ПАНЕЛЬ СООБЩЕНИЕ -->
 
