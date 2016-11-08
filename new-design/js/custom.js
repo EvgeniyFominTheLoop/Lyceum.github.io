@@ -20,3 +20,7 @@ el.style.display="block";
 }
 
 $('.carousel').carousel();
+
+// $("#clear-storage").click(function () {
+//   localStorage.clear();
+// });

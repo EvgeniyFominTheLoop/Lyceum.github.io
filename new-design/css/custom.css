@@ -81,8 +81,6 @@ footer a:active, footer a:focus, footer a:visited, footer a:hover {
 	position: absolute;
 }
 
-.hide {display: block;}
-
 /*СТЕНА ПУБЛИКАЦИЙ (ГЛАВНАЯ)*/
 .wall .panel-body {padding: 0px 30px 15px 30px;}
 
@@ -256,8 +254,6 @@ h1 {font-size: 30px;
 .carousel-caption {
 	right: 4%;
 	left: 4%;}
-
-.hide {display: none;}
 
 /* ПОЛЯ ВНУТРИ КОЛОНОК В FOOTER */
 .col-padding {

@@ -20,6 +20,10 @@
 
 .panel-heading {padding: 0;}
 
+.panel-heading h3 {
+	padding: 20px 0px;
+	margin:0;}
+
 .panel-body {padding: 15px 15px 0px 15px;}
 
 .panel-footer h4 {
@@ -175,6 +179,8 @@ textarea:focus, textarea:hover, input:focus, input:hover {
 
 #news-hack {display: block;}
 
+.hide {display: block !important;}
+
 @media (min-width: 1200px) {
 	.banners h3 {font-size: 22px;}
 	.mishukov h3 {font-size: 19px;}
@@ -192,8 +198,6 @@ textarea:focus, textarea:hover, input:focus, input:hover {
 }
 
 @media (max-width: 767px) {
-
-.hide {display: none;}
 
 #feedback .panel {
 	width: 100%;
@@ -217,4 +221,6 @@ textarea:focus, textarea:hover, input:focus, input:hover {
 #news-hack {display: none;}
 
 #mishukov h3 {font-size: 23px;}
+
+.hide {display: none !important;}
 }
