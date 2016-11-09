@@ -77,3 +77,7 @@ $('#news').click(function(){
 $('#mishukov').click(function(){
     $('#mishukov').toggleClass('border-bottom');
 });
+
+$('.selector-toggle').click(function(){
+    $('.carousel-caption').toggleClass('hidden');
+});
