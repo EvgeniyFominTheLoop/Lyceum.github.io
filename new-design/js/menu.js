@@ -39,4 +39,3 @@ $(window).resize(function(){
 $('#menu2').click(function(){
     $('#menu2').toggleClass('border-radius');
 });
-

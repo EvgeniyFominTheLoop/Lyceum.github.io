@@ -21,8 +21,9 @@ el.style.display="block";
 
 $('.carousel').carousel();
 
-// ТЕКСТ НА СЛАЙДЕРЕ
+// ТЕКСТ НА СЛАЙДЕРЕ И ВЫЕЗД ПАНЕЛИ
 $('.selector-toggle').click(function(){
+    $('#styleSelector').toggleClass('open');
     $('.carousel-caption').toggleClass('hidden');
 });
 
@@ -45,3 +46,5 @@ $("#mishukov").click(function () {
 	$("#mishukov1").slideToggle();
 	$('#mishukov').toggleClass('border-bottom');
 });
+
+

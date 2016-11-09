@@ -129,6 +129,10 @@
     text-decoration: none;
 }
 
+@media (min-width: 768px) {
+    #styleSelector {top: 40px;}
+}
+
 /*.theme-option select {
     background-color: #eaeaea;
     border: 1px solid #ccc;

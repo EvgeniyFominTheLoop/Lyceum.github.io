@@ -4,17 +4,12 @@
 *, html, ul, li {margin:0; padding:0;}
 
 html, body {
-	height: 100%;
 	width: 100%;
 	overflow-x: hidden;
 }
 
-header {
-	width: 100%;
-	overflow: hidden;}
-
 body {
-	/*display: block;*/
+	height: 100%;
     font-family: 'Trebuchet MS', Calibri, Arial, sans-serif;
     color: #7e7e7e;
     margin: 0;
@@ -151,6 +146,15 @@ footer a:active, footer a:focus, footer a:visited, footer a:hover {
             transform: scale(1.1) rotate(4deg);
 }
 
+/* хром, сафари */ 
+.element::-webkit-scrollbar {width: 0;} 
+
+/* ie 10+ */ 
+.element {-ms-overflow-style: none;} 
+
+/* фф (свойство больше не работает, других способов тоже нет)*/ 
+.element {overflow: -moz-scrollbars-none;}
+
 /****************** МЕДИА-ЗАПРОСЫ ******************/
 
 @media (min-width: 1200px) {
@@ -210,8 +214,6 @@ footer a:active, footer a:focus, footer a:visited, footer a:hover {
 .col-xs-pull-9 {right: 0;}
 .col-xs-push-3 {left: 0;}
 }
-
-
 
 @media (min-width: 768px) and (max-width: 991px) {
 
