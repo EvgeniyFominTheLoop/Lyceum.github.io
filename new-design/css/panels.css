@@ -183,6 +183,15 @@ textarea:focus, textarea:hover, input:focus, input:hover {
 @media (min-width: 1200px) {
 	.banners h3 {font-size: 22px;}
 	.mishukov h3 {font-size: 19px;}
+/*	.collapse {
+    -webkit-transition: none;
+    transition: none;}*/
+        #media1.collapse.in{
+        display:block !important;
+    }
+    #media.collapse {
+        display: none!important;
+    }
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {

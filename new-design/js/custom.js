@@ -21,6 +21,27 @@ el.style.display="block";
 
 $('.carousel').carousel();
 
-// $("#clear-storage").click(function () {
-//   localStorage.clear();
-// });
+// ТЕКСТ НА СЛАЙДЕРЕ
+$('.selector-toggle').click(function(){
+    $('.carousel-caption').toggleClass('hidden');
+});
+
+$("#media").click(function () {
+	$("#media1").slideToggle();
+	$('#media').toggleClass('border-bottom');
+});
+
+$("#info").click(function () {
+	$("#info1").slideToggle();
+	$('#info').toggleClass('border-bottom');
+});
+
+$("#news").click(function () {
+	$("#news1").slideToggle();
+	$('#news').toggleClass('border-bottom');
+});
+
+$("#mishukov").click(function () {
+	$("#mishukov1").slideToggle();
+	$('#mishukov').toggleClass('border-bottom');
+});
