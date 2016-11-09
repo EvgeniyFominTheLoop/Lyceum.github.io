@@ -169,13 +169,13 @@
 }*/
 @media (min-width: 480px) and (max-width: 767px) {
 #styleSelector {
-    width: 92%;
-    right: -92%;}
+    width: 58%;
+    right: -58%;}
 
-#theme-color a {
+/*#theme-color a {
     height: 40px;
     width: 40px;}
-}
+}*/
 
 @media (min-width: 320px) and (max-width: 479px) {
 #styleSelector {
