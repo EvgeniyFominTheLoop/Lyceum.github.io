@@ -3,17 +3,24 @@
 /* RESET STYLES */
 *, html, ul, li {margin:0; padding:0;}
 
-header {width: 100%;}
+html, body {
+	height: 100%;
+	width: 100%;
+	overflow-x: hidden;
+}
+
+header {
+	width: 100%;
+	overflow: hidden;}
 
 body {
-	width: 100%;
+	/*display: block;*/
     font-family: 'Trebuchet MS', Calibri, Arial, sans-serif;
     color: #7e7e7e;
     margin: 0;
     padding: 0;
     position: relative;
     background: rgba(126,126,126,0.1);
-    overflow-x: hidden;
 }
 
 footer {
@@ -37,6 +44,8 @@ footer a:active, footer a:focus, footer a:visited, footer a:hover {
 
 /* ИКОНКИ МЕНЮ */
 .fa {margin-right: 6px;}
+
+.panel-footer .fa {margin: 0;}
 
 /* ПОЛОЖЕНИЕ Z ДЛЯ КНОПОК СЛАЙДЕРА */
 .carousel-indicators {z-index: 1;}

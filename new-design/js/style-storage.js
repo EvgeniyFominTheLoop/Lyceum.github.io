@@ -11,15 +11,6 @@ $(function(){
       }
     }
   }
-  // $('a[class^=bg]').on('click', function(){ 
-  //   var styleClass = $(this).data('style-class');
-  //   $('#menu-top')[0].className = $('#menu-top')[0].className.replace(/\bbg.*\b/g, '');
-  //   $('#menu-top')[0].className = $('#menu-top')[0].className.replace(/\bthm.*\b/g, '');
-  //   $('#menu-top').addClass(styleClass); 
-  //   localStorageStyle['menu-top'] = styleClass;
-  //   localStorage.setItem('style', JSON.stringify(localStorageStyle)); 
-  // });
-
 
   $('a[class^=bg]').on('click', function(){ 
     var styleClass = $(this).data('style-class');

@@ -49,14 +49,9 @@
 /*ТЕМА 9*/
 .thm9 .mobile-menu, .thm9 .menu li a:hover, .thm9 .menu li:hover > a, .thm9 .grid figcaption, .thm9 .menu {background: #fff;}
 .thm9 {background: scroll url(/new-design/images/patterns/diamond-upholstery.png) rgba(126,126,126,0.1) top left repeat;}
-
 .thm9 .menu2 li a:hover, .thm9 .menu2 li:hover > a {color: #7e7e7e !important; background: #eeeeee;}
-
 .thm9 .menu li a:hover, .thm9 .menu li:hover > a, .thm9 .menu li a, .thm9 .grid figcaption h4, .thm9 .mobile-menu {color: #7e7e7e !important;}
-
 .thm9 .cl-effect-3 a::after, .thm9 .c-hamburger span, .thm9 .c-hamburger span::before, .thm9 .c-hamburger span::after {background: #7e7e7e;}
-/*.thm9 .menu li a {color: #797979;}
-.thm9 .menu2 li a:hover, .thm9 .menu2 li:hover > a {background: #eeeeee;}*/
 
 @media (max-width: 767px) {
 .thm9 .menu li a:hover, .thm9 .menu li:hover > a {background: #eeeeee;}
