@@ -31,25 +31,25 @@ $('.selector-toggle').click(function(){
 
 
 
-// $("#media").click(function () {
-// 	$("#media1").slideToggle();
-// 	$('#media').toggleClass('border-bottom');
-// });
+$("#media").click(function () {
+	$("#media1").slideToggle();
+	$('#media').toggleClass('border-bottom');
+});
 
-// $("#info").click(function () {
-// 	$("#info1").slideToggle();
-// 	$('#info').toggleClass('border-bottom');
-// });
+$("#info").click(function () {
+	$("#info1").slideToggle();
+	$('#info').toggleClass('border-bottom');
+});
 
-// $("#news").click(function () {
-// 	$("#news1").slideToggle();
-// 	$('#news').toggleClass('border-bottom');
-// });
+$("#news").click(function () {
+	$("#news1").slideToggle();
+	$('#news').toggleClass('border-bottom');
+});
 
-// $("#mishukov").click(function () {
-// 	$("#mishukov1").slideToggle();
-// 	$('#mishukov').toggleClass('border-bottom');
-// });
+$("#mishukov").click(function () {
+	$("#mishukov1").slideToggle();
+	$('#mishukov').toggleClass('border-bottom');
+});
 
 
 
@@ -62,11 +62,10 @@ $('.selector-toggle').click(function(){
 
 
 
-$(window).resize(function() {
-  if(document.documentElement.clientWidth < 767) {
-    // тут ваш скрипт
-	$("#mishukov, #info, #media, #news").click(function (e) { 
-		$(e.target).toggleClass('border-bottom'); 
-	});
-  }
-});
+// $(window).resize(function() {
+//   if(document.documentElement.clientWidth < 767) {
+// 	$("#mishukov, #info, #media, #news").click(function (e) { 
+// 		$(e.target).toggleClass('border-bottom'); 
+// 	});
+//   }
+// });
