@@ -252,13 +252,18 @@ h1 {font-size: 30px;
 	text-align: center;}
 
 /* СЛАЙДЕР НА МОБИЛЕ */
+.carousel-indicators {
+	bottom: 5px;
+}
+
 .carousel-indicators li {
-	width: 20px;
-	height: 20px;}
+	width: 30px;
+	height: 30px;
+	border-radius: 15px;}
 
 .carousel-indicators .active {
-	width: 22px;
-	height: 22px;}
+	width: 32px;
+	height: 32px;}
 
 .carousel-caption {padding-bottom: 30px;}
 
@@ -299,7 +304,7 @@ footer {padding-bottom: 5px;}
 
 .wezom-img {margin-top: 0;}
 
-.text-right {text-align: center;}
+footer.text-right {text-align: center;}
 
 footer {padding-bottom: 0;}
 }

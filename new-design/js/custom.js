@@ -1,22 +1,23 @@
 // Предзагрузка страницы
 $(document).ready(function(){ 
-$(".loader_inner").fadeOut(); 
-$(".loader").delay(400).fadeOut("slow"); 
+	$(".loader_inner").fadeOut(); 
+	$(".loader").delay(400).fadeOut("slow"); 
 });
 
 // Всплывающая подсказка
 $(function () {
-$('[data-toggle="tooltip"]').tooltip()
+	$('[data-toggle="tooltip"]').tooltip()
 })
 
 // Панель сообщения
 function viewdiv(id){
-var el=document.getElementById(id);
-if(el.style.display=="block"){
-el.style.display="none";
-} else {
-el.style.display="block";
-}
+	var el=document.getElementById(id);
+	if(el.style.display=="block"){
+		el.style.display="none";
+	}
+	else {
+		el.style.display="block";
+	}
 }
 
 $('.carousel').carousel();
@@ -27,24 +28,45 @@ $('.selector-toggle').click(function(){
     $('.carousel-caption').toggleClass('hidden');
 });
 
-$("#media").click(function () {
-	$("#media1").slideToggle();
-	$('#media').toggleClass('border-bottom');
+
+
+
+// $("#media").click(function () {
+// 	$("#media1").slideToggle();
+// 	$('#media').toggleClass('border-bottom');
+// });
+
+// $("#info").click(function () {
+// 	$("#info1").slideToggle();
+// 	$('#info').toggleClass('border-bottom');
+// });
+
+// $("#news").click(function () {
+// 	$("#news1").slideToggle();
+// 	$('#news').toggleClass('border-bottom');
+// });
+
+// $("#mishukov").click(function () {
+// 	$("#mishukov1").slideToggle();
+// 	$('#mishukov').toggleClass('border-bottom');
+// });
+
+
+
+
+
+// $("#mishukov, #info, #media, #news").click(function (e) { 
+// 	$('#'+e.target.id + '1').slideToggle();
+// });
+
+
+
+
+$(window).resize(function() {
+  if(document.documentElement.clientWidth < 767) {
+    // тут ваш скрипт
+	$("#mishukov, #info, #media, #news").click(function (e) { 
+		$(e.target).toggleClass('border-bottom'); 
+	});
+  }
 });
-
-$("#info").click(function () {
-	$("#info1").slideToggle();
-	$('#info').toggleClass('border-bottom');
-});
-
-$("#news").click(function () {
-	$("#news1").slideToggle();
-	$('#news').toggleClass('border-bottom');
-});
-
-$("#mishukov").click(function () {
-	$("#mishukov1").slideToggle();
-	$('#mishukov').toggleClass('border-bottom');
-});
-
-
