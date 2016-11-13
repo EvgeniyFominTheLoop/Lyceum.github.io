@@ -3,6 +3,12 @@
 /* RESET STYLES */
 *, html, ul, li {margin:0; padding:0;}
 
+img {
+/*	ondrag="return false"
+	ondragdrop="return false"
+	ondragstart="return false" */
+}
+
 html, body {
 	width: 100%;
 	overflow-x: hidden;
@@ -36,6 +42,18 @@ footer a:active, footer a:focus, footer a:visited, footer a:hover {
 	text-decoration: underline;
 	color: #fff;
 }
+
+/*ЛОГОТИП*/
+#logo {
+	position: absolute;
+	z-index: 2;
+	top: 50px;
+	left: 10px;
+	-webkit-animation-duration: 1s;
+	animation-delay: 1s;
+}
+
+#logo img {width: 100px;}
 
 /* ИКОНКИ МЕНЮ */
 .fa {margin-right: 6px;}
@@ -111,14 +129,16 @@ footer a:active, footer a:focus, footer a:visited, footer a:hover {
 	text-decoration: none;	
 }
 
-.wall .news-footer {
-	border-top: 1px solid #ddd;
-	padding-top: 10px;
-}
+.wall .news-img-show {margin-top: 10px;}
 
 .wall .news-img-show img {width: 100%;}
 
 .wall .news-img-list img {width: 30%;}
+
+.wall .news-footer {
+	border-top: 1px solid #ddd;
+	padding: 10px 0;
+}
 
 /*ГАЛЕРЕЯ*/
 .gallery a {margin: 0;}
@@ -154,6 +174,40 @@ footer a:active, footer a:focus, footer a:visited, footer a:hover {
 
 /* фф (свойство больше не работает, других способов тоже нет)*/ 
 .element {overflow: -moz-scrollbars-none;}
+
+/*АНИМАЦИЯ ЛОГОТИПА*/
+@-webkit-keyframes fadeInLeft {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(-100%, 0, 0);
+    transform: translate3d(-100%, 0, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+@keyframes fadeInLeft {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(-100%, 0, 0);
+    transform: translate3d(-100%, 0, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+.fadeInLeft {
+  -webkit-animation-name: fadeInLeft;
+  animation-name: fadeInLeft;
+}
 
 /****************** МЕДИА-ЗАПРОСЫ ******************/
 
@@ -244,9 +298,13 @@ footer a:active, footer a:focus, footer a:visited, footer a:hover {
 .col-xs-push-3 {left: 0;}
 }
 
-
+@media (min-width: 768px) {
+.wall .news-box {margin-bottom: 0;}
+}
 
 @media (max-width: 767px) {
+
+#logo {display: none;}
 
 h1 {font-size: 30px;
 	text-align: center;}

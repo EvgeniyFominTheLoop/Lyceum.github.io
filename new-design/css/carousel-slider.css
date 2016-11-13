@@ -290,6 +290,8 @@ now override the 3.3 new styles for modern browsers & apply opacity
   .featurette-heading {
     font-size: 50px;
   }
+
+  .carousel h1 {font-size: 31px;}
 }
 
 @media (min-width: 992px) {

@@ -226,7 +226,9 @@ textarea:focus, textarea:hover, input:focus, input:hover {
 
 .news-hack {display: block;}
 
-#mishukov h3 {font-size: 23px;}
-
 .hidden {display: none !important;}
+}
+
+@media (min-width: 320px) and (max-width: 479px) {
+#mishukov h3 {font-size: 23px;}
 }
