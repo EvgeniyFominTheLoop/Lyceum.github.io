@@ -28,20 +28,15 @@
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
 
-/* Carousel base class */
-.carousel {
-  height: 58vh;
-}
-
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
 /*  z-index: 10;*/
 }
 
-/* Declare heights because of positioning of img element */
-.carousel .item {
-  height: 58vh;
-  background-color: #777;
+/* Carousel base class and declare heights because of positioning of img element */
+.carousel, .carousel .item {
+  height: 68vh;
+/*  background-color: #777;*/
 }
 .carousel-inner > .item > img {
   position: absolute;
@@ -297,4 +292,8 @@ now override the 3.3 new styles for modern browsers & apply opacity
 
 @media (min-width: 992px) {
   .featurette-heading {margin-top: 120px;}
+}
+
+@media (max-width: 767px) {
+  .carousel, .carousel .item {height: 50vh;}
 }
