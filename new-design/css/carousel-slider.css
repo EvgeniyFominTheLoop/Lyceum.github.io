@@ -295,5 +295,5 @@ now override the 3.3 new styles for modern browsers & apply opacity
 }
 
 @media (max-width: 767px) {
-  .carousel, .carousel .item {height: 40vh;}
+  .carousel, .carousel .item {height: 50vh;}
 }
