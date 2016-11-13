@@ -29,15 +29,13 @@
 -------------------------------------------------- */
 
 /* Since positioning the image, we need to help out the caption */
-.carousel-caption {
-/*  z-index: 10;*/
-}
+/*.carousel-caption {
+  z-index: 10;
+}*/
 
 /* Carousel base class and declare heights because of positioning of img element */
-.carousel, .carousel .item {
-  height: 68vh;
-/*  background-color: #777;*/
-}
+.carousel, .carousel .item {height: 68vh;}
+
 .carousel-inner > .item > img {
   position: absolute;
   top: 0;
@@ -252,6 +250,10 @@ now override the 3.3 new styles for modern browsers & apply opacity
 /* RESPONSIVE CSS
 -------------------------------------------------- */
 
+@media (min-width: 320px) and (max-width: 479px) {
+  .carousel, .carousel .item {height: 45vh;}
+}
+
 @media (min-width: 768px) {
 
   /* Remove the edge padding needed for mobile */
@@ -292,8 +294,4 @@ now override the 3.3 new styles for modern browsers & apply opacity
 
 @media (min-width: 992px) {
   .featurette-heading {margin-top: 120px;}
-}
-
-@media (min-width: 320px) and (max-width: 479px) {
-  .carousel, .carousel .item {height: 45vh;}
 }

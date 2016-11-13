@@ -1,15 +1,40 @@
-// Предзагрузка страницы
+// ПРЕДЗАГРУЗКА СТРАНИЦЫ
 $(document).ready(function(){ 
 	$(".loader_inner").fadeOut(); 
 	$(".loader").delay(400).fadeOut("slow"); 
 });
 
-// Всплывающая подсказка
+// СЛАЙДЕР
+$('.carousel').carousel();
+
+// ВЫЕЗД ПАНЕЛИ СО СТИЛЯМИ
+$('.selector-toggle').click(function(){
+	$('#styleSelector').toggleClass('open');
+	if (document.documentElement.clientWidth < 768) {
+		$('#title').toggleClass('hidden');
+	}
+	else {
+		return 0;
+	}
+});
+
+// РАСКРЫВАЮЩИЕСЯ БЛОКИ НА МОБИЛЕ
+$("#mishukov, #info, #media, #news").click(function () {
+	if (document.documentElement.clientWidth < 768) {
+		$('#' + this.id + '1').slideToggle();
+		$('#' + this.id).toggleClass('border-bottom');
+	}
+	else {
+		return 0;
+	}
+});
+
+// ВСПЛЫВАЮЩАЯ ПОДСКАЗКА
 $(function () {
 	$('[data-toggle="tooltip"]').tooltip()
 })
 
-// Панель сообщения
+// ПАНЕЛЬ СООБЩЕНИЯ
 function viewdiv(id){
 	var el=document.getElementById(id);
 	if(el.style.display=="block"){
@@ -19,55 +44,3 @@ function viewdiv(id){
 		el.style.display="block";
 	}
 }
-
-$('.carousel').carousel();
-
-// ТЕКСТ НА СЛАЙДЕРЕ И ВЫЕЗД ПАНЕЛИ
-$('.selector-toggle').click(function(){
-    $('#styleSelector').toggleClass('open');
-    $('.carousel-caption').toggleClass('hidden');
-});
-
-
-
-
-// $("#media").click(function () {
-// 	$("#media1").slideToggle();
-// 	$('#media').toggleClass('border-bottom');
-// });
-
-// $("#info").click(function () {
-// 	$("#info1").slideToggle();
-// 	$('#info').toggleClass('border-bottom');
-// });
-
-// $("#news").click(function () {
-// 	$("#news1").slideToggle();
-// 	$('#news').toggleClass('border-bottom');
-// });
-
-// $("#mishukov").click(function () {
-// 	$("#mishukov1").slideToggle();
-// 	$('#mishukov').toggleClass('border-bottom');
-// });
-
-
-
-
-
-$("#mishukov, #info, #media, #news").click(function (e) {
-	$('#'+this.id+'1').slideToggle();
-	$('#'+this.id).toggleClass('border-bottom');
-});
-	// $('#'+e.target.id + '1').slideToggle();
-
-
-	
-
-// $(window).resize(function() {
-//   if(document.documentElement.clientWidth < 767) {
-// 	$("#mishukov, #info, #media, #news").click(function (e) { 
-// 		$(e.target).toggleClass('border-bottom'); 
-// 	});
-//   }
-// });

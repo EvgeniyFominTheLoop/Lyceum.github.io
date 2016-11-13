@@ -54,7 +54,7 @@
     font-size: 22px;
     position: relative;
     float: left;
-    left: 8px;
+    left: 10px;
     line-height: 35px;
 }
 .open .selector-toggle > a:before {
@@ -63,7 +63,7 @@
     font-size: 22px;
     position: relative;
     float: left;
-    left: 8px;
+    left: 10px;
     line-height: 35px;`
 }
 #styleSelector ul {
