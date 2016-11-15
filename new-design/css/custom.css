@@ -3,12 +3,6 @@
 /* RESET STYLES */
 *, html, ul, li {margin:0; padding:0;}
 
-img {
-/*	ondrag="return false"
-	ondragdrop="return false"
-	ondragstart="return false" */
-}
-
 html, body {
 	width: 100%;
 	overflow-x: hidden;
@@ -104,7 +98,7 @@ footer a:active, footer a:focus, footer a:visited, footer a:hover {
 }
 
 /*СТЕНА ПУБЛИКАЦИЙ (ГЛАВНАЯ)*/
-.wall .panel-body {padding: 0px 30px 15px 30px;}
+.wall .panel-body {padding: 15px 30px;}
 
 .wall h1 {
 	margin: 0;
@@ -141,13 +135,26 @@ footer a:active, footer a:focus, footer a:visited, footer a:hover {
 }
 
 /*ГАЛЕРЕЯ*/
-.gallery a {margin: 0;}
+.gallery-item a {margin: 0;}
 
-.gallery h4 {margin-bottom: 0;}
+.gallery-item h4 {margin-bottom: 0;}
 
-.gallery img {
+.gallery-item {
+	width: 100%;
+	padding: 20px;
+	text-align: center;
+}
+
+.gallery-item img {
+	width: 100%;
 	border-radius: 5px;
-	width: 100%;}
+}
+
+.columns {
+	-webkit-column-count: 3; /* Chrome, Safari, Opera */
+	-moz-column-count: 3; /* Firefox */
+	column-count: 3;
+}
 
 /* ЭФФЕКТ ДЛЯ ГАЛЕРЕИ*/
 .grow-rotate {
@@ -296,10 +303,6 @@ footer a:active, footer a:focus, footer a:visited, footer a:hover {
 /*ОБНУЛЕНИЕ КЛАССОВ ВО ИЗБЕЖАНИЕ ПОЛОМОК*/
 .col-xs-pull-9 {right: 0;}
 .col-xs-push-3 {left: 0;}
-}
-
-@media (min-width: 768px) {
-.wall .news-box {margin-bottom: 0;}
 }
 
 @media (max-width: 767px) {

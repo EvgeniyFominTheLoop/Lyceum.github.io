@@ -22,7 +22,7 @@ $('.selector-toggle').click(function(){
 $("#mishukov, #info, #media, #news").click(function () {
 	if (document.documentElement.clientWidth < 768) {
 		$('#' + this.id + '1').slideToggle();
-		$('#' + this.id).toggleClass('border-bottom');
+		// $('#' + this.id).toggleClass('border-bottom');
 	}
 	else {
 		return 0;
@@ -47,3 +47,13 @@ $(function () {
 
 // ЗАПРЕТ НА ПЕРЕТАСКИВАНИЕ КАРТИНОК
 $('img').on('dragstart', function(event) { event.preventDefault(); });
+
+// КОЛОНКИ В ГАЛЛЕРЕЕ
+if(window.location.href.indexOf("gallery") > -1) {
+	var g = document.getElementById("gallery");
+	g.className += " columns";
+}
+
+$(function () {
+    $("#mdb-lightbox-ui").load("mdb-addons/mdb-lightbox-ui.html");
+});

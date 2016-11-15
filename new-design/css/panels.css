@@ -1,5 +1,5 @@
 .panel-heading {
-    border-bottom: 1px solid #e3e3e3;
+    /*border-bottom: 1px solid #e3e3e3;*/
     text-align: center;
 }
 
@@ -22,7 +22,10 @@
 	padding: 20px 0px;
 	margin:0;}
 
-.panel-body {padding: 15px 15px 0px 15px;}
+.panel-body {
+	padding: 15px 15px 0px 15px;
+	border-top: 1px solid #e3e3e3;
+}
 
 .panel-footer h4 {
 	margin: 0px;
@@ -171,8 +174,6 @@ textarea:focus, textarea:hover, input:focus, input:hover {
 .comment-answer p {margin-bottom: 0;}
 
 .comment-answer p span {color: #7e7e7e !important;}
-
-.border-bottom {border-bottom: 1px solid #e3e3e3 !important;}
 
 .news-hack {display: none;}
 
