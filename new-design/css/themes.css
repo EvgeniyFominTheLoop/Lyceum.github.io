@@ -56,4 +56,5 @@
 
 @media (max-width: 767px) {
 .thm9 .menu li a:hover, .thm9 .menu li:hover > a {background: #eeeeee;}
+.thm9 #logo-2 img {-webkit-filter: opacity(60%);}
 }

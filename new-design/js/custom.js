@@ -53,7 +53,3 @@ if(window.location.href.indexOf("gallery") > -1) {
 	var g = document.getElementById("gallery");
 	g.className += " columns";
 }
-
-$(function () {
-    $("#mdb-lightbox-ui").load("mdb-addons/mdb-lightbox-ui.html");
-});
