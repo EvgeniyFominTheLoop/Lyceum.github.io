@@ -80,13 +80,17 @@
 	position: fixed;
 	top: 55px;
 	right: 15px;
-/*	left: inherit;*/
 	z-index: 120;
 	padding: 0px 15px 15px 15px;
 	font:inherit;
 	text-align: center;
 	height: 65vh;
 	overflow-y: scroll;
+	border: 1px solid #e3e3e3;
+}
+
+#feedback .panel-body {
+	border: 0;
 }
 
 #feedback .heading {
