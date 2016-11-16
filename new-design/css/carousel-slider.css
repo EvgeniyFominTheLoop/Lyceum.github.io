@@ -283,11 +283,21 @@ now override the 3.3 new styles for modern browsers & apply opacity
 /* RESPONSIVE CSS
 -------------------------------------------------- */
 
-@media (min-width: 320px) and (max-width: 479px) {
-  .carousel, .carousel .item {height: 45vh;}
-  .carousel-caption {
-  right: 3%;
-  left: 3%;}
+
+@media (min-width: 992px) {
+.featurette-heading {margin-top: 120px;}
+}
+
+@media (min-width: 768px) {
+/* Bump up size of carousel content */
+.carousel h1 {font-size: 31px;}
+
+.carousel-caption p {
+font-size: 21px;
+line-height: 1.4;
+}
+
+.carousel-indicators {bottom: 5px;}
 }
 
 @media (max-width: 767px) {
@@ -295,9 +305,7 @@ now override the 3.3 new styles for modern browsers & apply opacity
 /* СЛАЙДЕР НА МОБИЛЕ */
 .bg-img {
   padding: 11px;
-  top: -22px;
-  /*left: -22px;*/
-}
+  top: -22px;}
 
 .carousel-indicators {bottom: 0;}
 
@@ -317,48 +325,9 @@ now override the 3.3 new styles for modern browsers & apply opacity
   left: 15%;}
 }
 
-@media (min-width: 768px) {
-
-  /* Remove the edge padding needed for mobile */
-  .marketing {
-    padding-right: 0;
-    padding-left: 0;
-  }
-
-  /* Navbar positioning foo */
-  .navbar-wrapper {
-    margin-top: 20px;
-  }
-  .navbar-wrapper .container {
-    padding-right: 15px;
-    padding-left:  15px;
-  }
-  .navbar-wrapper .navbar {
-    padding-right: 0;
-    padding-left:  0;
-  }
-
-  /* The navbar becomes detached from the top, so we round the corners */
-  .navbar-wrapper .navbar {
-    border-radius: 4px;
-  }
-
-  /* Bump up size of carousel content */
-  .carousel-caption p {
-/*    margin-bottom: 20px;*/
-    font-size: 21px;
-    line-height: 1.4;
-  }
-
-  .carousel-indicators {bottom: 5px;}
-
-  .featurette-heading {
-    font-size: 50px;
-  }
-
-  .carousel h1 {font-size: 31px;}
-}
-
-@media (min-width: 992px) {
-  .featurette-heading {margin-top: 120px;}
+@media (min-width: 320px) and (max-width: 479px) {
+  .carousel, .carousel .item {height: 45vh;}
+  .carousel-caption {
+  right: 3%;
+  left: 3%;}
 }
