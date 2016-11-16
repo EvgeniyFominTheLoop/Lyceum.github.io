@@ -285,6 +285,9 @@ now override the 3.3 new styles for modern browsers & apply opacity
 
 @media (min-width: 320px) and (max-width: 479px) {
   .carousel, .carousel .item {height: 45vh;}
+  .carousel-caption {
+  right: 3%;
+  left: 3%;}
 }
 
 @media (max-width: 767px) {
@@ -310,8 +313,8 @@ now override the 3.3 new styles for modern browsers & apply opacity
 .carousel-caption {padding-bottom: 40px;}
 
 .carousel-caption {
-  right: 4%;
-  left: 4%;}
+  right: 15%;
+  left: 15%;}
 }
 
 @media (min-width: 768px) {
