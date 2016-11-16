@@ -340,13 +340,14 @@ footer a:active, footer a:focus, footer a:visited, footer a:hover {
 
 @media (max-width: 767px) {
 
-#logo {
+#logo-2 {
 	width: 50px;
 	position: absolute;
 	z-index: 20;
 	top: 7px;
 	right: 10px;
-	left: inherit;}
+	left: inherit;
+	pointer-events: none;}
 
 #logo-2 img {
 	height: 50px;

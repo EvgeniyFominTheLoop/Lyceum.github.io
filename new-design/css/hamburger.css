@@ -31,6 +31,7 @@
   border: none;
   cursor: pointer;
   background:none;
+  pointer-events: none;
   -webkit-transition: background 0.3s;
           transition: background 0.3s;
 }
