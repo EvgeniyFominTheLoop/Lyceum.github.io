@@ -53,16 +53,8 @@ $(document).ready(function() {
 $("#lightgallery").lightGallery(); 
 });
 
-// КОЛОНКИ В ГАЛЛЕРЕЕ
+// КОЛОНКИ В ГАЛЕРЕЕ
 if(window.location.href.indexOf("gallery") > -1) {
 	var g = document.getElementById("gallery");
 	g.className += "columns";
 }
-
-// КОЛОНКИ В ГАЛЛЕРЕЕ
-// if(window.location.href.indexOf("gallery") > -1) {
-// 	var lg = document.getElementById("lightgallery");
-// 	var g = document.getElementById("gallery");
-// 	lg.className += "columns";
-// 	g.className += "columns";
-// }
