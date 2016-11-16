@@ -361,24 +361,6 @@ footer a:active, footer a:focus, footer a:visited, footer a:hover {
 h1 {font-size: 30px;
 	text-align: center;}
 
-/* СЛАЙДЕР НА МОБИЛЕ */
-.carousel-indicators {bottom: 5px;}
-
-.carousel-indicators li {
-	width: 30px;
-	height: 30px;
-	border-radius: 15px;}
-
-.carousel-indicators .active {
-	width: 32px;
-	height: 32px;}
-
-.carousel-caption {padding-bottom: 30px;}
-
-.carousel-caption {
-	right: 4%;
-	left: 4%;}
-
 /* ПОЛЯ ВНУТРИ КОЛОНОК В FOOTER */
 .col-padding {
 	padding-left: 3px;
