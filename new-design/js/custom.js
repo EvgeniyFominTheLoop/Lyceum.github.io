@@ -10,12 +10,6 @@ $('.carousel').carousel();
 // ВЫЕЗД ПАНЕЛИ СО СТИЛЯМИ
 $('.selector-toggle').click(function(){
 	$('#styleSelector').toggleClass('open');
-	if (document.documentElement.clientWidth < 768) {
-		$('#title').toggleClass('hidden');
-	}
-	else {
-		return 0;
-	}
 });
 
 // РАСКРЫВАЮЩИЕСЯ БЛОКИ НА МОБИЛЕ
