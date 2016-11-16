@@ -290,10 +290,11 @@ now override the 3.3 new styles for modern browsers & apply opacity
 @media (max-width: 767px) {
 
 /* СЛАЙДЕР НА МОБИЛЕ */
-/*.bg-img {
+.bg-img {
   padding: 11px;
-  top: -22px
-  left: -22px;}*/
+  top: -22px;
+  /*left: -22px;*/
+}
 
 .carousel-indicators {bottom: 0;}
 
