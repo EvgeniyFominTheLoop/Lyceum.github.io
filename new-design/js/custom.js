@@ -48,8 +48,21 @@ function viewdiv(id){
 // ЗАПРЕТ НА ПЕРЕТАСКИВАНИЕ КАРТИНОК
 $('img').on('dragstart', function(event) { event.preventDefault(); });
 
+// LIGHT GALLERY
+$(document).ready(function() {
+$("#lightgallery").lightGallery(); 
+});
+
 // КОЛОНКИ В ГАЛЛЕРЕЕ
 if(window.location.href.indexOf("gallery") > -1) {
 	var g = document.getElementById("gallery");
-	g.className += " columns";
+	g.className += "columns";
 }
+
+// КОЛОНКИ В ГАЛЛЕРЕЕ
+// if(window.location.href.indexOf("gallery") > -1) {
+// 	var lg = document.getElementById("lightgallery");
+// 	var g = document.getElementById("gallery");
+// 	lg.className += "columns";
+// 	g.className += "columns";
+// }
