@@ -14,21 +14,21 @@
 
 /*ТЕМА 1*/
 .thm1 .mobile-menu, .thm1 .menu li a:hover, .thm1 .menu li:hover > a, .thm1 .grid figcaption, .thm1 .menu {background: #77CCDD;}
-.thm1 {background: scroll url(/new-design/images/patterns/diamond-upholstery.png) rgba(126,126,126,0.1) top left repeat;}
+.thm1 {background: scroll url(/new-design/images/patterns/inspiration-geometry.png) rgba(126,126,126,0.1) top left repeat;}
 .thm1 .menu:hover {opacity: 1;}
 /*.thm1 .cl-effect-8 a::before, .thm1 .cl-effect-8 a::after {border-color: #fff;}*/
 
 /*ТЕМА 2*/
 .thm2 .mobile-menu, .thm2 .menu li a:hover, .thm2 .menu li:hover > a, .thm2 .grid figcaption, .thm2 .menu {background: #3498DB;}
-.thm2 {background: scroll url(/new-design/images/patterns/diamond-upholstery.png) rgba(126,126,126,0.1) top left repeat;}
+.thm2 {background: scroll url(/new-design/images/patterns/shattered.png) top left repeat;}
 
 /*ТЕМА 3*/
 .thm3 .mobile-menu, .thm3 .menu li a:hover, .thm3 .menu li:hover > a, .thm3 .grid figcaption, .thm3 .menu {background: #485BBD;}
-.thm3 {background: scroll url(/new-design/images/patterns/diamond-upholstery.png) rgba(126,126,126,0.1) top left repeat;}
+.thm3 {background: scroll url(/new-design/images/patterns/seigaiha.png) top left repeat;}
 
 /*ТЕМА 4*/
 .thm4 .mobile-menu, .thm4 .menu li a:hover, .thm4 .menu li:hover > a, .thm4 .grid figcaption, .thm4 .menu {background: #624e89;}
-.thm4 {background: scroll url(/new-design/images/patterns/diamond-upholstery.png) rgba(126,126,126,0.1) top left repeat;}
+.thm4 {background: scroll url(/new-design/images/patterns/subtle_zebra_3d.png) top left repeat;}
 
 /*ТЕМА 5*/
 .thm5 .mobile-menu, .thm5 .menu li a:hover, .thm5 .menu li:hover > a, .thm5 .grid figcaption, .thm5 .menu {background: #384b5f;}

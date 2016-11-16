@@ -52,7 +52,7 @@
              0px 8px 13px rgba(0,0,0,0.1),
              0px 18px 23px rgba(0,0,0,0.1);*/
 background: rgba(0,0,0,0.5);
-/*padding: 5px 10px;*/
+padding: 5px 0;
 margin: 0;
 }
 /*
@@ -272,7 +272,7 @@ now override the 3.3 new styles for modern browsers & apply opacity
   width: 32px;
   height: 32px;}
 
-.carousel-caption {padding-bottom: 30px;}
+.carousel-caption {padding-bottom: 40px;}
 
 .carousel-caption {
   right: 4%;
