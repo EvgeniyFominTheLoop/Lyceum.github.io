@@ -260,9 +260,8 @@ ul.panel-footer li a:active, ul.panel-footer li a:focus, ul.panel-footer li a:vi
 
 .menu2{
 	text-align: center;
-	border-top-left-radius: 0px;
-    border-top-right-radius: 0px;
-}
+	border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;}
 
 .menu {
 	display: none;
@@ -273,14 +272,11 @@ ul.panel-footer li a:active, ul.panel-footer li a:focus, ul.panel-footer li a:vi
 .menu li {
 	display: block;
 	margin: 0;
-border-top: 1px solid #e3e3e3;}
-
-/*.menu li:last-child {border-bottom: 1px solid #e3e3e3;}*/
+	border-top: 1px solid #e3e3e3;}
 
 .menu li a {
 	background: #fff;
-	color: #797979;
-	}
+	color: #797979;}
 
 .menu li a:active, .menu li a:visited {
 	outline: none;
