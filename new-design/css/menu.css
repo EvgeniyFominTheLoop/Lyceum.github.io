@@ -131,7 +131,7 @@ ul.panel-footer li a:active, ul.panel-footer li a:focus, ul.panel-footer li a:vi
 
 .mobile-menu:hover, .mobile-menu:focus {text-decoration: none;}
 
-.side-container .mobile-menu {border-radius: 3px;}
+.side-container .mobile-menu {border-radius: 4px;}
 
 .border-radius {border-radius: 3px 3px 0px 0px !important;}
 
@@ -212,7 +212,8 @@ ul.panel-footer li a:active, ul.panel-footer li a:focus, ul.panel-footer li a:vi
 	position: inherit;
 	z-index: 4;
 	text-align: left;
-	background: #fff !important;}
+	background: #fff !important;
+	margin-bottom: 20px;}
 
 .menu2 li{
 	z-index: 90;
