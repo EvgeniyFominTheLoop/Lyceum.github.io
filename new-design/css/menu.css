@@ -220,10 +220,8 @@ ul.panel-footer li a:active, ul.panel-footer li a:focus, ul.panel-footer li a:vi
 	float: none;
 	border-bottom: 1px solid #e3e3e3;}
 
-/* Effect 3: bottom line slides/fades in */
-.underline a {
-	padding: 8px 0;
-}
+/* ЭФФЕКТ ПОДЧЕРКИВАНИЯ В МЕНЮ */
+.underline a {padding: 8px 0;}
 
 .underline a::after {
 	position: absolute;
@@ -242,8 +240,7 @@ ul.panel-footer li a:active, ul.panel-footer li a:focus, ul.panel-footer li a:vi
 	transform: translateY(10px);
 }
 
-.underline a:hover::after,
-.underline a:focus::after {
+.underline a:hover::after, .underline a:focus::after {
 	opacity: 1;
 	-webkit-transform: translateY(0px);
 	-moz-transform: translateY(0px);
@@ -255,13 +252,6 @@ ul.panel-footer li a:active, ul.panel-footer li a:focus, ul.panel-footer li a:vi
 }
 
 @media (max-width: 767px) {
-
-.menu2-heading {display: none;}
-
-.menu2{
-	text-align: center;
-	border-bottom-left-radius: 3px;
-    border-bottom-right-radius: 3px;}
 
 .menu {
 	display: none;
@@ -284,5 +274,12 @@ ul.panel-footer li a:active, ul.panel-footer li a:focus, ul.panel-footer li a:vi
 	color: #797979;
 	background: #fff;}
 
-.menu-bottom {margin-bottom: 30px;}
+/*.menu-bottom {margin-bottom: 30px;}*/
+
+.menu2-heading {display: none;}
+
+.menu2{
+	text-align: center;
+	border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;}
 }
