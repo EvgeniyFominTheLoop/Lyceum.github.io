@@ -149,9 +149,8 @@ input.sbm-btn:hover {
 	color: #fff;
 	background: #77CCDD;
 }
-.theme-option select:focus, .theme-option select:hover,
-textarea:focus, textarea:hover,
-input:focus, input:hover {
+
+textarea:focus, textarea:hover, input:focus, input:hover {
 	-webkit-box-shadow: none;
     outline: -webkit-focus-ring-color auto 0px;
 	border: 1px solid #7e7e7e;
