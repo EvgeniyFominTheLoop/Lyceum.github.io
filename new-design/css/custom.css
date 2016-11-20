@@ -132,8 +132,6 @@ footer a:active, footer a:focus, footer a:visited, footer a:hover {
 
 .wall .news-img-show img {width: 100%;}
 
-/*.wall .news-img-list img {width: 30%;}*/
-
 .wall .news-footer {
 	border-top: 1px solid #ddd;
 	padding: 10px 0;
@@ -156,12 +154,16 @@ footer a:active, footer a:focus, footer a:visited, footer a:hover {
 	text-decoration: none;
 	color: #fff;
 	border-radius: 50%;
-	-webkit-transition: 1s;
-	-moz-transition: 1s;
-	transition: 1s;
 }
 
-#back-top .fa {margin: 7px 0 0;}
+#back-top .fa {margin: 8px 0 0;}
+
+.btn-bottom {
+	bottom: 120px !important;
+	-webkit-transition: 0.5s;
+	-moz-transition: 0.5s;
+	transition: 0.5s;
+}
 
 /*ГАЛЕРЕЯ*/
 .gallery-item a {margin: 0;}

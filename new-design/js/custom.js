@@ -77,4 +77,10 @@ $(document).ready(function () {
 
 });
 
-// ФОНОВАЯ ЗАГРУЗКА СЛАЙДЕРА
+$(window).scroll(function() {
+	if($(window).scrollTop() + $(window).height() == $(document).height()) {
+		$('#back-top').addClass('btn-bottom');
+	} else {
+		$('#back-top').removeClass('btn-bottom');
+	}
+});
