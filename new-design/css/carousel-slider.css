@@ -206,106 +206,17 @@ now override the 3.3 new styles for modern browsers & apply opacity
   animation-name: zoomIn;
 }
 
-
-@-webkit-keyframes bounceInUp {
-  from, 60%, 75%, 90%, to {
-    -webkit-animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
-    animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
-  }
-
-  from {
-    opacity: 0;
-    -webkit-transform: translate3d(0, 3000px, 0);
-    transform: translate3d(0, 3000px, 0);
-  }
-
-  60% {
-    opacity: 1;
-    -webkit-transform: translate3d(0, -20px, 0);
-    transform: translate3d(0, -20px, 0);
-  }
-
-  75% {
-    -webkit-transform: translate3d(0, 10px, 0);
-    transform: translate3d(0, 10px, 0);
-  }
-
-  90% {
-    -webkit-transform: translate3d(0, -5px, 0);
-    transform: translate3d(0, -5px, 0);
-  }
-
-  to {
-    -webkit-transform: translate3d(0, 0, 0);
-    transform: translate3d(0, 0, 0);
-  }
-}
-
-@keyframes bounceInUp {
-  from, 60%, 75%, 90%, to {
-    -webkit-animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
-    animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
-  }
-
-  from {
-    opacity: 0;
-    -webkit-transform: translate3d(0, 3000px, 0);
-    transform: translate3d(0, 3000px, 0);
-  }
-
-  60% {
-    opacity: 1;
-    -webkit-transform: translate3d(0, -20px, 0);
-    transform: translate3d(0, -20px, 0);
-  }
-
-  75% {
-    -webkit-transform: translate3d(0, 10px, 0);
-    transform: translate3d(0, 10px, 0);
-  }
-
-  90% {
-    -webkit-transform: translate3d(0, -5px, 0);
-    transform: translate3d(0, -5px, 0);
-  }
-
-  to {
-    -webkit-transform: translate3d(0, 0, 0);
-    transform: translate3d(0, 0, 0);
-  }
-}
-
-.bounceInUp {
-  -webkit-animation-name: bounceInUp;
-  animation-name: bounceInUp;
-}
-
 /* RESPONSIVE CSS
 -------------------------------------------------- */
 
-
-@media (min-width: 992px) {
-.featurette-heading {margin-top: 120px;}
-}
-
-@media (min-width: 768px) {
-/* Bump up size of carousel content */
-.carousel h1 {font-size: 31px;}
-
-.carousel-caption p {
-font-size: 21px;
-line-height: 1.4;
-}
-
-.carousel-indicators {bottom: 5px;}
+@media (min-width: 320px) and (max-width: 479px) {
+  .carousel, .carousel .item {height: 45vh;}
+  .carousel-caption {
+  right: 3%;
+  left: 3%;}
 }
 
 @media (max-width: 767px) {
-
-/* СЛАЙДЕР НА МОБИЛЕ */
-.bg-img {
-  padding: 11px;
-  top: -22px;}
 
 .carousel-indicators {bottom: 0;}
 
@@ -325,9 +236,27 @@ line-height: 1.4;
   left: 15%;}
 }
 
-@media (min-width: 320px) and (max-width: 479px) {
-  .carousel, .carousel .item {height: 45vh;}
-  .carousel-caption {
-  right: 3%;
-  left: 3%;}
+@media (min-width: 768px) {
+/* Bump up size of carousel content */
+.carousel h1 {font-size: 31px;}
+
+.carousel-caption {
+  right: 17%;
+  left: 17%;}
+
+.carousel-caption p {
+  font-size: 21px;
+  line-height: 1.4;}
+
+.carousel-indicators {bottom: 5px;}
+}
+
+@media (min-width: 992px) {
+.featurette-heading {margin-top: 120px;}
+}
+
+@media (min-width: 1200px) {
+.carousel-caption {
+  right: 25%;
+  left: 25%;}
 }

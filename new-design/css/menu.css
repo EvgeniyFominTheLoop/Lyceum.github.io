@@ -46,6 +46,8 @@
 	color: #7e7e7e;
 	position: inherit;
 	background: #fff;
+	border: 1px solid #e3e3e3;
+	border-radius: 4px;
 }
 
 .menu2 li a {
@@ -275,12 +277,11 @@ ul.panel-footer li a:active, ul.panel-footer li a:focus, ul.panel-footer li a:vi
 	color: #797979;
 	background: #fff;}
 
-/*.menu-bottom {margin-bottom: 30px;}*/
-
 .menu2-heading {display: none;}
 
 .menu2{
+	border-top: 0;
 	text-align: center;
-	border-bottom-left-radius: 3px;
-    border-bottom-right-radius: 3px;}
+	border-top-right-radius: 0;
+	border-top-left-radius: 0;}
 }

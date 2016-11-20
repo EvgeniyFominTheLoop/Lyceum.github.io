@@ -48,9 +48,10 @@ footer a:active, footer a:focus, footer a:visited, footer a:hover {
 	animation-delay: 1s;
 }
 
-#logo img {width: 100%;}
-
-/*#logo img {}*/
+#logo img {
+	width: 100%;
+	/*-webkit-filter: drop-shadow(4px 5px 0px #fff);
+	filter: drop-shadow(4px 5px 0px #fff);*/} /*ТЕНЬ (НА ВСЯКИЙ)*/
 
 /* ИКОНКИ МЕНЮ */
 .fa {margin-right: 6px;}
@@ -85,6 +86,7 @@ footer a:active, footer a:focus, footer a:visited, footer a:hover {
 	width: 100%;
 	z-index: 9999;
 }
+
 .loader_inner {
 	background-image: url("../images/preloader3.gif");
 	background-size: cover;
@@ -186,37 +188,6 @@ footer a:active, footer a:focus, footer a:visited, footer a:hover {
 	-moz-column-count: 3; /* Firefox */
 	column-count: 3;
 }
-
-/* ЭФФЕКТ ДЛЯ ГАЛЕРЕИ*/
-.grow-rotate {
-    display: inline-block;
-    -webkit-transition-duration: 0.3s;
-            transition-duration: 0.3s;
-    -webkit-transition-property: transform;
-            transition-property: transform;
-    -webkit-transform: translateZ(0);
-            transform: translateZ(0);
-/*    box-shadow: 0 0 1px rgba(0, 0, 0, 0);*/
-}
-
-.grow-rotate:hover,b .grow-rotate:focus, .grow-rotate:active {
-    -webkit-transform: scale(1.1) rotate(3deg);
-            transform: scale(1.1) rotate(3deg);
-}
-
-.grow-rotate img:hover,b .grow-rotate img:focus, .grow-rotate img:active {
-	box-shadow: 10px 10px 0px -4px rgba(0,0,0,0.5);
-	    -webkit-transition-duration: 0.3s;
-            transition-duration: 0.3s;
-}
-/* хром, сафари */ 
-.element::-webkit-scrollbar {width: 0;} 
-
-/* ie 10+ */ 
-.element {-ms-overflow-style: none;} 
-
-/* фф (свойство больше не работает, других способов тоже нет)*/ 
-.element {overflow: -moz-scrollbars-none;}
 
 /*АНИМАЦИЯ ЛОГОТИПА*/
 @-webkit-keyframes fadeInLeft {
