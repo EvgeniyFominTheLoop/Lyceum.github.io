@@ -15,11 +15,6 @@
 		<meta property="og:image" content="https://evgeniyfomintheloop.github.io/new-design/images/lyc_grey.png" />
 		<!-- <meta http-equiv="cleartype" content="on"> -->
 
-		<!-- КОНТРОЛЬ КЕША (ОПЦИОНАЛЬНО) -->
-		<!-- <meta http-equiv="Cache-Control" content="no-cache"/>
-		<meta http-equiv="Pragma" content="no-cache"/>
-		<meta http-equiv="Expires" content="0"/> -->
-
 		<title>Херсонський академічний ліцей імені О.В. Мішукова</title>
 		<link rel="shortcut icon" href="/new-design/images/lyceum.ico">
 
@@ -34,23 +29,19 @@
 		<link rel="stylesheet" type="text/css" href="/new-design/css/custom.css" />
 		<link rel="stylesheet" type="text/css" href="/new-design/css/panels.css" />
 		<link rel="stylesheet" type="text/css" href="/new-design/css/lightGallery.css" />
-		<!-- <link rel="stylesheet" type="text/css" href="/new-design/css/animate.css" /> -->
-		<!-- <link rel="stylesheet" type="text/css" href="/new-design/css/message-button.css" /> -->
+		<!-- <link rel="stylesheet" type="text/css" href="/new-design/css/animate.css" /> --> <!-- НА ВСЯКИЙ -->
 	</head>
 	<body id="theme" class="thm1">
 		<!-- ЗАГРУЗЧИК -->
-<!-- 		<div class="hidden"></div>
+		<div class="hidden"></div>
 		<div class="loader">
 			<div class="loader_inner"></div> 
-		</div> -->
+		</div>
 		<!-- ЛОГОТИП -->
 		<div id="logo" class="animated fadeInLeft">
 			<div class="hidden">
 				<img src="/new-design/images/owl.png">
 			</div>
-
-		<div></div>
-			
 		</div>
 		<!-- МЕНЮ МОБИЛЬНОЕ -->
 		<section>
@@ -221,7 +212,7 @@
 								<li><a target="_blank" href="https://goo.gl/odNrx8" data-toggle="tooltip" title="Наш канал YouTube"><i class="fa fa-youtube-play"></i></a></li>
 								<li><a target="_blank" href="http://vk.com/public80694949" data-toggle="tooltip" title="Ми Вконтакті"><i class="fa fa-vk"></i></a></li>
 								<!-- ИКОНКИ-ССЫЛКИ КОНЕЦ -->
-								<!--  ФОРМА ПОИСКА -->
+								<!-- ФОРМА ПОИСКА -->
 								<form class="form-search" action="/search" method="POST">
 									<input type="text" class="search-query" placeholder="Пошук на сайті" name="search">
 								<button class="btn" type="submit" href='/search'><i class="fa fa-search"></i></button>
@@ -253,7 +244,7 @@
 							<div id="media1">
 								<div class="panel-body padding-media">
 									<div class="videoWrapper">
-										<!-- ДЛЯ ВСТАВКИ ВИДЕО ЗАМЕНИТЬ СТРОКУ НИЖЕ -->
+										<!-- ДЛЯ ВСТАВКИ ВИДЕО ЗАМЕНИТЬ СТРОКУ НИЖЕ (желательно оставить разрешение 500х300) -->
 										<iframe width="500" height="300" src="https://www.youtube.com/embed/tYzKM1-O23g" allowfullscreen=""></iframe>
 									</div>
 								</div>
@@ -313,7 +304,7 @@
 								<div class="panel-body">
 									<div class="news-box">
 										<img src="/pic/mishukov.jpg" alt="">
-										<p>Педагогічний колектив Херсонського Академічного ліцею при ХДУ очолював директор, 
+										<p>Педагогічний колектив Херсонського академічного ліцею ХМР при ХДУ очолював директор, 
 										доктор філологічних наук, заслужений діяч мистецтв України, професор<br />Олег Мішуков.</p>
 									</div>
 								</div>
@@ -328,11 +319,10 @@
 				<!-- СТЕНА -->
 					<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-md-pull-3 col-lg-pull-3">
 						<div class="panel wall">
-							<!-- НАЗВАНИЕ РАЗДЕЛА (ПРОПИСАТЬ В АДМИНКЕ) -->
 							<div class="panel-heading text-center">
 								<h1><?php echo get_h1(); ?></h1>
 							</div>
-							<div class="panel-body">
+							<div id="content" class="panel-body">
 								<?php echo $str; ?>
 							</div>
 						</div>
@@ -367,9 +357,10 @@
 			</ul>
 		</div>
 		<!-- ПАНЕЛЬ СТИЛЕЙ КОНЕЦ -->
-		<!-- ПАНЕЛЬ СООБЩЕНИЕ -->
-
-		<!-- ПАНЕЛЬ СООБЩЕНИЕ КОНЕЦ -->
+		<!-- КНОПКА "НАВЕРХ" -->
+		<div id="back-top">
+			<a href="#top" title="Наверх"><i class="fa fa-angle-double-up"></i></a>
+		</div>
 		<!-- FOOTER -->
 		<footer>
 			<div class="container-fluid">
@@ -412,7 +403,6 @@
 		<script type="text/javascript" src="/new-design/js/menu.js"></script>
 		<script type="text/javascript" src="/new-design/js/modernizr.custom.js"></script>
 		<script type="text/javascript" src="/new-design/js/toucheffects.js"></script>
-		<script type="text/javascript" src="/new-design/js/message.js"></script>
 		<script type="text/javascript" src="/new-design/js/style-storage.js"></script>
 		<script type="text/javascript" src="/new-design/js/lightgallery.js"></script>
 		<script type="text/javascript" src="/new-design/js/lg-autoplay.js"></script>
