@@ -209,15 +209,7 @@ now override the 3.3 new styles for modern browsers & apply opacity
 /* RESPONSIVE CSS
 -------------------------------------------------- */
 
-@media (min-width: 320px) and (max-width: 479px) {
-  .carousel, .carousel .item {height: 45vh;}
-  .carousel-caption {
-  right: 3%;
-  left: 3%;}
-}
-
 @media (max-width: 767px) {
-
 .carousel-indicators {bottom: 0;}
 
 .carousel-indicators li {
@@ -234,6 +226,13 @@ now override the 3.3 new styles for modern browsers & apply opacity
 .carousel-caption {
   right: 15%;
   left: 15%;}
+}
+
+@media (min-width: 320px) and (max-width: 479px) {
+  .carousel, .carousel .item {height: 45vh;}
+  .carousel-caption {
+  right: 3%;
+  left: 3%;}
 }
 
 @media (min-width: 768px) {
