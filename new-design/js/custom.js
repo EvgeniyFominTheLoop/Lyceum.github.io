@@ -29,15 +29,15 @@ $(function () {
 })
 
 // ПАНЕЛЬ СООБЩЕНИЯ
-function viewdiv(id){
-	var el=document.getElementById(id);
-	if(el.style.display=="block"){
-		el.style.display="none";
-	}
-	else {
-		el.style.display="block";
-	}
-}
+// function viewdiv(id){
+// 	var el=document.getElementById(id);
+// 	if(el.style.display=="block"){
+// 		el.style.display="none";
+// 	}
+// 	else {
+// 		el.style.display="block";
+// 	}
+// }
 
 // ЗАПРЕТ НА ПЕРЕТАСКИВАНИЕ КАРТИНОК
 $('img').on('dragstart', function(event) { event.preventDefault(); });
@@ -52,3 +52,29 @@ if(window.location.href.indexOf("gallery") > -1) {
 	var g = document.getElementById("gallery");
 	g.className += "columns";
 }
+
+// ПОДГРУЗКА КОНТЕНТА
+
+
+// ПЛАВНАЯ ПРОКРУТКА ВВЕРХ
+$(document).ready(function () {
+    $("#back-top").hide();
+    $(function () {
+        $(window).scroll(function () {
+            if ($(this).scrollTop() > 100) {
+                $('#back-top').fadeIn();
+            } else {
+                $('#back-top').fadeOut();
+            }
+        });
+        $('#back-top a').click(function () {
+            $('body,html').animate({
+                scrollTop: 0
+            }, 800);
+            return false;
+        });
+    });
+
+});
+
+// ФОНОВАЯ ЗАГРУЗКА СЛАЙДЕРА
