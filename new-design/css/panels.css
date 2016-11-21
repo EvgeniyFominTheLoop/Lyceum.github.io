@@ -171,7 +171,7 @@ textarea:focus, textarea:hover, input:focus, input:hover {
 .comment-text, .comment-text p {
 	margin: 10px 0px 0px;
 	font-size: 16px;
-	color: #77CCDD;
+	color: #77CCDD !important;
 	font-weight: bold;
 }
 
@@ -186,8 +186,9 @@ textarea:focus, textarea:hover, input:focus, input:hover {
 .hidden {display: block !important;}
 
 /*СТЕНА ПУБЛИКАЦИЙ (ГЛАВНАЯ)*/
-.shown {
-	display: block !important;}
+.shown {display: block !important;}
+
+.MsoNormal {display: none;} /*СКРЫВАЕТ КОНТЕНТ НА СТЕНЕ ID=CONTENT*/
 
 .wall .panel-body {padding: 15px 30px;}
 
@@ -198,8 +199,7 @@ textarea:focus, textarea:hover, input:focus, input:hover {
 
 .wall p {
 	margin: 10px 0px;
-	color: #7e7e7e;
-	display: none;}
+	color: #7e7e7e;}
 
 .wall a {
 	margin: 10px;

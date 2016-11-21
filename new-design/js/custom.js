@@ -52,7 +52,7 @@ $(document).ready(function () {
             } else {
                 $('#back-top').fadeOut();
             }
-			if($(window).scrollTop() + $(window).height() == $(document).height()) {
+			if (($(window).scrollTop() <= $(document).height() - $(window).height()) && ($(window).scrollTop() + 10 > $(document).height() - $(window).height())) {
 				$('#back-top').addClass('btn-bottom');
 			} else {
 				$('#back-top').removeClass('btn-bottom');
@@ -72,7 +72,7 @@ $(document).ready(function () {
 (function($) {
 	$(document).ready(function() {
 		
-		$("#content p.shown:last").nextUntil("#content p:nth-child(10)").addClass("shown");
+		$("#content p.shown:last").nextUntil("#content p.MsoNormal:nth-child(10)").addClass("shown");
 
 		$(window).scroll(function() {
 			if (($(window).scrollTop() <= $(document).height() - $(window).height()) && ($(window).scrollTop() + 150 > $(document).height() - $(window).height())) {
