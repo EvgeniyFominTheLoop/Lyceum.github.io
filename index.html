@@ -21,7 +21,6 @@
 		<link rel="stylesheet" type="text/css" href="/new-design/bootstrap-3.3.7-dist/css/bootstrap.css"/>
 		<link rel="stylesheet" type="text/css" href="/new-design/css/font-awesome.css" />
 		<link rel="stylesheet" type="text/css" href="/new-design/css/carousel-slider.css" />
-		<link rel="stylesheet" type="text/css" href="/new-design/css/hamburger.css" />
 		<link rel="stylesheet" type="text/css" href="/new-design/css/banners.css" />
 		<link rel="stylesheet" type="text/css" href="/new-design/css/themes.css" />
 		<link rel="stylesheet" type="text/css" href="/new-design/css/menu.css" />
@@ -36,6 +35,10 @@
 		<div class="hidden"></div>
 		<div class="loader">
 			<div class="loader_inner"></div> 
+		</div>
+		<!-- КНОПКА "НАВЕРХ" -->
+		<div id="back-top">
+			<a href="#top" title="Наверх"><i class="fa fa-angle-double-up"></i></a>
 		</div>
 		<!-- ЛОГОТИП -->
 		<div id="logo" class="animated fadeInLeft">
@@ -323,6 +326,7 @@
 								<h1><?php echo get_h1(); ?></h1>
 							</div>
 							<div id="content" class="panel-body">
+								<p class="shown"></p>
 								<?php echo $str; ?>
 							</div>
 						</div>
@@ -357,10 +361,6 @@
 			</ul>
 		</div>
 		<!-- ПАНЕЛЬ СТИЛЕЙ КОНЕЦ -->
-		<!-- КНОПКА "НАВЕРХ" -->
-		<div id="back-top">
-			<a href="#top" title="Наверх"><i class="fa fa-angle-double-up"></i></a>
-		</div>
 		<!-- FOOTER -->
 		<footer>
 			<div class="container-fluid">

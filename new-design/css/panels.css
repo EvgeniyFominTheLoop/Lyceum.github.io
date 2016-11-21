@@ -185,6 +185,45 @@ textarea:focus, textarea:hover, input:focus, input:hover {
 
 .hidden {display: block !important;}
 
+/*СТЕНА ПУБЛИКАЦИЙ (ГЛАВНАЯ)*/
+.shown {
+	display: block !important;}
+
+.wall .panel-body {padding: 15px 30px;}
+
+.wall h1 {
+	margin: 0;
+	padding: 13px;
+}
+
+.wall p {
+	margin: 10px 0px;
+	color: #7e7e7e;
+	display: none;}
+
+.wall a {
+	margin: 10px;
+	font-size: 18px;
+}
+
+.wall span {color: #7e7e7e;}
+
+.wall a:active, .wall a:focus, .wall a:visited, .wall a:focus, .wall a {color: #7e7e7e;}
+
+.wall a:hover, .wall a span:hover, .wall:hover > a {
+	color:#333333;
+	text-decoration: none;	
+}
+
+.wall .news-img-show {margin-top: 10px;}
+
+.wall .news-img-show img {width: 100%;}
+
+.wall .news-footer {
+	border-top: 1px solid #ddd;
+	padding: 10px 0;
+}
+
 @media (min-width: 1200px) {
 	.banners h3 {font-size: 22px;}
 	.mishukov h3 {font-size: 19px;}

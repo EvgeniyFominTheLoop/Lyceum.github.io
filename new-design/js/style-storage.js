@@ -20,6 +20,4 @@ $(function(){
     localStorageStyle['theme'] = styleClass;
     localStorage.setItem('style', JSON.stringify(localStorageStyle));
   });
-
-
 });

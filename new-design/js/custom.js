@@ -28,17 +28,6 @@ $(function () {
 	$('[data-toggle="tooltip"]').tooltip()
 })
 
-// ПАНЕЛЬ СООБЩЕНИЯ
-// function viewdiv(id){
-// 	var el=document.getElementById(id);
-// 	if(el.style.display=="block"){
-// 		el.style.display="none";
-// 	}
-// 	else {
-// 		el.style.display="block";
-// 	}
-// }
-
 // ЗАПРЕТ НА ПЕРЕТАСКИВАНИЕ КАРТИНОК
 $('img').on('dragstart', function(event) { event.preventDefault(); });
 
@@ -52,9 +41,6 @@ if(window.location.href.indexOf("gallery") > -1) {
 	var g = document.getElementById("gallery");
 	g.className += "columns";
 }
-
-// ПОДГРУЗКА КОНТЕНТА
-
 
 // ПЛАВНАЯ ПРОКРУТКА ВВЕРХ
 $(document).ready(function () {
@@ -81,3 +67,22 @@ $(document).ready(function () {
     });
 
 });
+
+// ПОДГРУЗКА КОНТЕНТА (INFINITE SCROLL)
+(function($) {
+	$(document).ready(function() {
+		
+		$("#content p.shown:last").nextUntil("#content p:nth-child(10)").addClass("shown");
+
+		$(window).scroll(function() {
+			if (($(window).scrollTop() <= $(document).height() - $(window).height()) && ($(window).scrollTop() + 150 > $(document).height() - $(window).height())) {
+				loadMoreContent();
+			}
+		});
+	});
+
+	function loadMoreContent() {
+		$("#content p.shown:last").nextAll().slice(0, 10).addClass("shown");
+	}
+
+})(jQuery);
