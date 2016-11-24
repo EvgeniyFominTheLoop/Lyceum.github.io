@@ -29,6 +29,8 @@
 		<link rel="stylesheet" type="text/css" href="/new-design/css/panels.css" />
 		<link rel="stylesheet" type="text/css" href="/new-design/css/lightGallery.css" />
 		<!-- <link rel="stylesheet" type="text/css" href="/new-design/css/animate.css" /> --> <!-- НА ВСЯКИЙ -->
+
+		<script type="text/javascript" src="/new-design/js/snowstorm.js"></script>
 	</head>
 	<body id="theme" class="thm1">
 		<!-- ЗАГРУЗЧИК -->
@@ -357,6 +359,11 @@
 						<a href="#" class="bg8" data-style-class="thm8">&nbsp;</a>
 						<a href="#" class="bg9" data-style-class="thm9">&nbsp;</a>
 					</div>
+				</li>
+				<li id="snow" class="theme-option">
+					<span>Вітаємо з наступаючими святами!</span>
+					<a href="#" title="Вітряно сьогодні?" onclick="snowStorm.randomizeWind();return false"><i class="fa fa-flag-o"></i></a>
+					<a href="#" title="Сьогодні немає снігу!" onclick="snowStorm.stop();return false"><i class="fa fa-snowflake-o"></i></a>
 				</li>
 			</ul>
 		</div>
