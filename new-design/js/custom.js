@@ -52,7 +52,7 @@ $(document).ready(function () {
             } else {
                 $('#back-top').fadeOut();
             }
-			if (($(window).scrollTop() <= $(document).height() - $(window).height()) && ($(window).scrollTop() + 10 > $(document).height() - $(window).height())) {
+			if (($(window).scrollTop() <= $(document).height() - $(window).height()) && ($(window).scrollTop() + 50 > $(document).height() - $(window).height())) {
 				$('#back-top').addClass('btn-bottom');
 			} else {
 				$('#back-top').removeClass('btn-bottom');
