@@ -16,8 +16,8 @@ var snowStorm = (function(window, document) {
   // --- common properties ---
 
   this.flakesMax = 20;           // Limit total amount of snow made (falling + sticking)
-  this.flakesMaxActive = 48;      // Limit amount of snow falling at once (less = lower CPU use)
-  this.flakesMinActive = 24;      // Try to keep at least X flakes active at all times
+  this.flakesMaxActive = 15;      // Limit amount of snow falling at once (less = lower CPU use)
+  this.flakesMinActive = 10;      // Try to keep at least X flakes active at all times
   this.flakeScale = 1.0;          // Percentage to scale flakes (1.0 default = normal size)
   this.animationInterval = 42;    // Theoretical "miliseconds per frame" measurement. 20 = fast + smooth, but high CPU use. 50 = more conservative, but slower
   this.excludeMobile = false;     // Snow is likely to be bad news for mobile phones' CPUs (and batteries.) By default, be nice.
