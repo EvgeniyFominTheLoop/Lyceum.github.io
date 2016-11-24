@@ -215,7 +215,9 @@ textarea:focus, textarea:hover, input:focus, input:hover {
 	text-decoration: none;	
 }
 
-.wall .news-img-show {margin-top: 10px;}
+/*.wall .news-img-show {margin-top: 10px;}*/
+
+.wall .news-box {margin: 0 15px 15px 0;}
 
 .wall .news-img-show img {width: 100%;}
 

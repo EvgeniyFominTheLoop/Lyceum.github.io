@@ -42,6 +42,20 @@ footer a:active, footer a:focus, footer a:visited, footer a:hover {
 	color: #fff;
 }
 
+/*СНЕЖИНКИ*/
+@font-face {
+	font-family: 'WWFlakesRegular';
+	src: url('/new-design/fonts/wwflakes-webfont.eot');
+	src: url('/new-design/fonts/wwflakes-webfont.woff') format('woff'), url('/new-design/fonts/wwflakes-webfont.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/*#snow {
+	font-size: 16px;
+	font-family: WWFlakesRegular, arial, verdana, sans-serif;
+}*/
+
 /*ЛОГОТИП*/
 #logo {
 	position: absolute;
@@ -50,7 +64,7 @@ footer a:active, footer a:focus, footer a:visited, footer a:hover {
 	top: 50px;
 	left: 10px;
 	-webkit-animation-duration: 1s;
-	animation-delay: 1s;
+	animation-delay: 2s;
 }
 
 #logo img {
