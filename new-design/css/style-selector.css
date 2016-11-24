@@ -123,17 +123,20 @@
     margin: 0px;
     box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.1);
 }
-#theme-color a:hover,
-#theme-color a:focus {
-    text-decoration: none;
-}
+
+#theme-color a:hover, #theme-color a:focus {text-decoration: none;}
 
 li.theme-option  {border-top: 1px solid #e9e9e9;}
 
 /*СНЕГ*/
-#snow a {font-size: 20px;}
+#snow p {
+    font-size: 16px;
+    margin: 0;
+}
 
-#snow span {font-size: 13px;}
+#snow a {font-size: 24px;}
+
+#snow .fa {margin: 0 3px;}
 
 #snow a:active, #snow a:focus, #snow a:visited, #snow a:focus, #snow a {color: #7e7e7e;}
 
